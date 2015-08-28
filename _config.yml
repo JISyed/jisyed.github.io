@@ -1,0 +1,70 @@
+title:            Jishenaz
+description:      Workings of Jibran Syed
+disqus_shortname:
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally use http://localhost:4000
+#url: http://localhost:4000
+url: //jisyed.github.io
+
+# Owner/author information
+owner:
+  name:           Jibran Syed
+  avatar:         aboutLogo.png
+  bio:            "Game Developer with an interest in art and technology. Writes code, but wants to do other things too."
+  email:          jibranisyed@outlook.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        jishenaz
+  facebook:
+  github:         JISyed
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:         #jishenaz
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    #+JibranSyed
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-66086917-1
+google_verify:    VeNcZV4S_4zHBj8lpEZ-9GjOiaPxxMUJdEAbopd2gwU
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/Chicago
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "npm-debug.log"]
