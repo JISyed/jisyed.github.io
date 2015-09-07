@@ -160,9 +160,9 @@ body {
 .entry-meta {
 	@include font-rem(12);
 	text-transform: uppercase;
-	color: lighten($base-color,60);
+	color: lighten($base-color,45);
 	a {
-		color: lighten($base-color,60);
+		color: lighten($base-color,45);
 	}
 	.vcard {
 		&:before {
