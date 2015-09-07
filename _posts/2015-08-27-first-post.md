@@ -3,7 +3,7 @@ layout: post
 date: 2015-08-27
 title: First Post
 description: "The first post of jisyed.github.io"
-tags: [web]
+tags: [Web]
 comments: false
 share: false
 ---
