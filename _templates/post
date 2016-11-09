@@ -1,14 +1,16 @@
 ---
 layout: {{ layout }}
 title: {{ title }}
+date: 
 modified:
 categories: {{ dir }}
 description:
+categories:
 tags: []
 image:
   feature:
   credit:
   creditlink:
-comments:
-share:
+comments: false
+share: true
 ---

@@ -1,6 +1,7 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "fileutils"
 
 ## -- Config -- ##
 
@@ -22,24 +23,31 @@ task :new_post, :title do |t, args|
   else
     title = get_stdin("Enter a title for your post: ")
   end
-  filename = "#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
+  filename = "#{posts_dir}/#{Time.now.strftime('%Y')}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
   puts "Creating new post: #{filename}"
+  dirname = File.dirname(filename)
+  unless File.directory?(dirname)
+    FileUtils.mkdir_p(dirname)
+  end
   open(filename, 'w') do |post|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
+    page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
+    post.puts "categories: "
     post.puts "tags: [#{tags}]"
+    post.puts "description: "
     post.puts "image:"
     post.puts "  feature: "
     post.puts "  credit: "
     post.puts "  creditlink: "
-    post.puts "comments: "
-    post.puts "share: "
+    post.puts "comments: false"
+    post.puts "share: true"
     post.puts "---"
   end
 end
@@ -63,13 +71,16 @@ task :new_page, :title do |t, args|
     page.puts "layout: page"
     page.puts "permalink: /#{title.to_url}/"
     page.puts "title: \"#{title}\""
+    page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     page.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     page.puts "tags: [#{tags}]"
+    post.puts "description: "
     page.puts "image:"
     page.puts "  feature: "
     page.puts "  credit: "
     page.puts "  creditlink: "
-    page.puts "share: "
+    page.puts "share: false"
+    page.puts "comments: false"
     page.puts "---"
   end
 end

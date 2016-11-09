@@ -6,10 +6,12 @@ title: About Jishenaz
   #credit: dargadgetz
   #creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 #modified: 2014-12-24
+description: "About Jishenaz"
 share: false
+comments: false
 ---
 
-This personal web space in under construction. Coming in 2016.
+This personal web space in under construction. Coming in 2017.
 
 ----
 
