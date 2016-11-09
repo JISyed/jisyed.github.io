@@ -8,17 +8,17 @@ module.exports = function(grunt) {
       },
       all: [
         'Gruntfile.js',
-        'assets/js/*.js',
-        'assets/js/plugins/*.js',
-        '!assets/js/scripts.min.js'
+        '_assets/js/*.js',
+        '_assets/js/plugins/*.js',
+        '!_assets/js/scripts.min.js'
       ]
     },
     uglify: {
       dist: {
         files: {
-          'assets/js/scripts.min.js': [
-            'assets/js/plugins/*.js',
-            'assets/js/_*.js'
+          '_assets/js/scripts.min.js': [
+            '_assets/js/plugins/*.js',
+            '_assets/js/_*.js'
           ]
         }
       }
@@ -31,9 +31,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: '_images/',
           src: '{,*/}*.{png,jpg,jpeg}',
-          dest: 'images/'
+          dest: '_images/'
         }]
       }
     },
@@ -41,9 +41,9 @@ module.exports = function(grunt) {
       dist: {
         files: [{
           expand: true,
-          cwd: 'images/',
+          cwd: '_images/',
           src: '{,*/}*.svg',
-          dest: 'images/'
+          dest: '_images/'
         }]
       }
     },
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/js/scripts.min.js'
+        '_assets/js/scripts.min.js'
       ]
     }
   });

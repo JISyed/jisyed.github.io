@@ -68,5 +68,5 @@ kramdown:
     bold_every: 10
     css: class
 
-include: [".htaccess"]
+include: [".htaccess", "_assets", "_images"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "npm-debug.log"]

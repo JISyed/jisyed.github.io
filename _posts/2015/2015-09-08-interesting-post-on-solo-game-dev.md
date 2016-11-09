@@ -3,6 +3,7 @@ layout: post
 date: 2015-09-08
 title: Intersting Article about Solo Game Dev
 description: "Link to HobbyGameDev"
+categories: Other
 tags: [Link]
 comments: false
 share: false
