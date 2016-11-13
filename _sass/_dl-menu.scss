@@ -1,5 +1,10 @@
+/* ==========================================================================
+    DL Menu
+    ========================================================================== */
+
 .dl-menuwrapper {
 	width: 100%;
+	height: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -16,6 +21,7 @@
 		top: 25px;
 		left: 25px;
 	}
+
 	button {
 		top: 0;
 		left: 0;
@@ -28,32 +34,37 @@
 		position: relative;
 		cursor: pointer;
 		outline: none;
-		@include border-radius(0,3px,0,0);
+		border-radius: 0 0 3px 0;
 		opacity: 0.6;
+		box-shadow: 0 12px 24px rgba(#000,0.4);
 		@media #{$medium} {
-			@include border-radius(3px,3px,3px,3px);
+			border-radius: 3px;
 		}
 	}
+
 	button:hover,
 	button.dl-active,
 	ul {
 		background: #aaa;
 	}
+
 	button:after {
 		content: '';
 		position: absolute;
 		width: 68%;
 		height: 5px;
-		background: $white;
+		background: #fff;
 		top: 10px;
 		left: 16%;
 		box-shadow:
-			0 10px 0 $white,
-			0 20px 0 $white;
+			0 10px 0 #fff,
+			0 20px 0 #fff;
 	}
+
 	button.dl-active {
 		display: none;
 	}
+
 	ul {
 		padding: 0;
 		list-style: none;
@@ -61,18 +72,21 @@
 		-moz-transform-style: preserve-3d;
 		transform-style: preserve-3d;
 	}
+
 	li {
 		position: relative;
+
 		h4 {
 			margin:0;
 			padding: 15px 20px 0;
-			color: rgba($white,0.9);
+			color: rgba(#fff,0.9);
 		}
+
 		p {
 			margin: 0;
 			padding: 15px 20px;
 			@include font-rem(14);
-			color: rgba($white,0.8);
+			color: rgba(#fff,0.8);
 			font-weight: 300;
 			a {
 				display: inline;
@@ -80,9 +94,11 @@
 				@include font-rem(14);
 			}
 		}
+
 		i {
 			// display: inline-block;
 		}
+
 		a {
 			display: block;
 			position: relative;
@@ -90,24 +106,27 @@
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
-			color: $white;
+			color: #fff;
 			outline: none;
 		}
+
 		&.dl-back > a {
 			padding-left: 30px;
 			background: rgba(0,0,0,0.2);
 		}
+
 		&.dl-back:after,
 		> a:not(:only-child):after {
 			position: absolute;
 			top: 0;
 			line-height: 50px;
 			font-family: 'fontawesome';
-			color: $white;
+			color: #fff;
 			speak: none;
 			-webkit-font-smoothing: antialiased;
 			content: "\f105";
 		}
+
 		&.dl-back:after {
 			left: 10px;
 			color: rgba(212,204,198,0.5);
@@ -115,21 +134,23 @@
 			-moz-transform: rotate(180deg);
 			transform: rotate(180deg);
 		}
+
 		> a:after {
 			right: 10px;
 			color: rgba(0,0,0,0.15);
 		}
 	}
+
 	.dl-menu {
 		margin: 0;
-		position: absolute;
+		position: relative;
 		width: 100%;
-		max-width: 400px;
+		max-height: 90%;
 		overflow-y: auto;
-		max-height: 600px;
+		overflow-x: hidden;
 		opacity: 0;
 		pointer-events: none;
-		box-shadow: 0 12px 24px rgba($black,0.4);
+		box-shadow: 0 12px 24px rgba(#000,0.4);
 		-webkit-transform: translateY(10px);
 		-moz-transform: translateY(10px);
 		transform: translateY(10px);
@@ -138,15 +159,16 @@
 		backface-visibility: hidden;
 		z-index: inherit;
 		@media #{$medium} {
-			@include border-radius(3px,3px,3px,3px);
-			max-height: 650px;
+			border-radius: 3px;
 		}
 	}
+
 	.dl-menu.dl-menu-toggle {
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;
 		transition: all 0.3s ease;
 	}
+
 	.dl-menu.dl-menuopen {
 		opacity: 1;
 		pointer-events: auto;
@@ -154,13 +176,15 @@
 		-moz-transform: translateY(0px);
 		transform: translateY(0px);
 	}
+
 	.dl-submenu {
-		@include rounded(3px);
-		box-shadow: 0 12px 24px rgba($black,0.4);
+		border-radius: 3px;
+		box-shadow: 0 12px 24px rgba(#000,0.4);
 		.btn {
 			margin-bottom: 0;
 		}
 	}
+
 	/* Hide the inner submenus */
 	li .dl-submenu {
 		display: none;
@@ -178,6 +202,7 @@ All this is done for any sub-level being entered.
 .dl-menu.dl-subview li.dl-subview > a {
 	display: none;
 }
+
 .dl-menu.dl-subview li.dl-subview,
 .dl-menu.dl-subview li.dl-subview .dl-submenu,
 .dl-menu.dl-subview li.dl-subviewopen,
@@ -185,6 +210,7 @@ All this is done for any sub-level being entered.
 .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
 	display: block;
 }
+
 /* Animation classes for moving out and in */
 .dl-menu.dl-animate-out {
 	-webkit-animation: MenuAnimOut 0.4s ease;
@@ -314,10 +340,12 @@ All this is done for any sub-level being entered.
 		opacity: 0;
 	}
 }
+
 /* No Touch Fallback */
 .no-touch .dl-menuwrapper li a:hover {
 	background: rgba(255,248,213,0.1);
 }
+
 /* No JS Fallback */
 .no-js {
 	.dl-trigger {
@@ -356,12 +384,14 @@ All this is done for any sub-level being entered.
 		display: block;
 	}
 }
+
 // Menu Color
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
 	background: $comp-color;
 }
+
 // Fix for IE
 .dl-menu li {
 	display: none
