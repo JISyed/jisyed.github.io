@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-09-08
-title: Intersting Article about Solo Game Dev
+title: Interesting Article about Solo Game Dev
 description: "Link to HobbyGameDev"
 categories: Other
 tags: [Link]
