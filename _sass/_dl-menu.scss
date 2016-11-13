@@ -13,6 +13,7 @@
 	-webkit-perspective-origin: 50% 200%;
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
+
 	@media #{$medium} {
 		position: fixed;
 		max-width: 175px;
@@ -40,6 +41,12 @@
 		border-radius: 0 0 3px 0;
 		opacity: 0.6;
 		box-shadow: 0 12px 24px rgba(#000,0.4);
+		transition: 0.4s ease-in-out;
+
+ 		&:hover {
+ 			opacity: 1;
+ 		}
+
 		@media #{$medium} {
 			border-radius: 3px;
 		}
@@ -62,10 +69,6 @@
 		box-shadow:
 			0 10px 0 #fff,
 			0 20px 0 #fff;
-	}
-
-	button.dl-active {
-		display: none;
 	}
 
 	ul {
@@ -91,6 +94,7 @@
 			@include font-rem(14);
 			color: rgba(#fff,0.8);
 			font-weight: 300;
+
 			a {
 				display: inline;
 				padding: 0;
@@ -141,7 +145,7 @@
 	}
 
 	.dl-menu {
-		margin: 0;
+		margin: 5px 0 0 0;
 		position: relative;
 		width: 100%;
 		max-height: 90%;
@@ -190,7 +194,7 @@
 	}
 }
 /*
-When a submenu is openend, we will hide all li siblings.
+When a submenu is opened, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
 We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
