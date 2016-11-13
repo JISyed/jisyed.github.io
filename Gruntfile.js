@@ -8,8 +8,8 @@ module.exports = function(grunt) {
       },
       all: [
         'Gruntfile.js',
-        '_assets/js/*.js',
-        '_assets/js/plugins/*.js',
+        '!_assets/js/*.js',
+        '!_assets/js/plugins/*.js',
         '!_assets/js/scripts.min.js'
       ]
     },
