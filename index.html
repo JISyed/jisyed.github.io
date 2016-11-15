@@ -11,7 +11,7 @@ image:
 ---
 
 {% for post in paginator.posts %}
-<article class="hentry">
+<article class="hentry {% if post.domain %} kiroku-domain-entry-ribbon kiroku-domain-{{ post.domain }} {% endif %}">
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">

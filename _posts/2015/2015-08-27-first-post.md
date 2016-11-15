@@ -3,7 +3,8 @@ layout: post
 date: 2015-08-27
 title: First Post
 description: "The first post of jisyed.github.io"
-categories: Other
+domain: Code
+project: Kiroku
 tags: [Web]
 comments: false
 share: false

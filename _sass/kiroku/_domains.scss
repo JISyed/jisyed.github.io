@@ -1,0 +1,30 @@
+// CSS for styling domain metadata in posts
+
+.kiroku-domain-entry-ribbon {
+    border-top-style: solid;
+    border-top-width: 5px;
+}
+
+.kiroku-domain-Art {
+    border-top-color: $kiroku-domain-color-normal-art;
+}
+
+.kiroku-domain-Audio {
+    border-top-color: $kiroku-domain-color-normal-audio;
+}
+
+.kiroku-domain-Code {
+    border-top-color: $kiroku-domain-color-normal-code;
+}
+
+.kiroku-domain-Game-Dev {
+    border-top-color: $kiroku-domain-color-normal-game-dev;
+}
+
+.kiroku-domain-Writing {
+    border-top-color: $kiroku-domain-color-normal-writing;
+}
+
+.kiroku-domain-Linguisitcs {
+    border-top-color: $kiroku-domain-color-normal-linguistics;
+}

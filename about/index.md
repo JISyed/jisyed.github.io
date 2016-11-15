@@ -11,7 +11,7 @@ share: false
 comments: false
 ---
 
-This personal web space in under construction. Coming in 2017.
+This personal web space is under construction. Coming in 2017.
 
 ----
 
