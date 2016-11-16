@@ -27,6 +27,8 @@ task :new_post, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
+  domain_meta = get_stdin("Enter the post's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
+  project_meta = get_stdin("Enter the project associated with this post: ")
   tags = get_stdin("Enter tags to classify your post (comma separated): ")
   puts "Creating new post: #{filename}"
   dirname = File.dirname(filename)
@@ -37,10 +39,10 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
+    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
-    post.puts "domain: "
-    post.puts "project: "
+    post.puts "domain: #{domain_meta}"
+    post.puts "project: #{project_meta}"
     post.puts "tags: [#{tags}]"
     post.puts "description: "
     post.puts "image:"
@@ -65,6 +67,8 @@ task :new_page, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
+  domain_meta = get_stdin("Enter the post's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
+  project_meta = get_stdin("Enter the project associated with this post: ")
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |page|
@@ -74,8 +78,8 @@ task :new_page, :title do |t, args|
     page.puts "title: \"#{title}\""
     page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     page.puts "modified: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    page.puts "domain: "
-    page.puts "project: "
+    page.puts "domain: #{domain_meta}"
+    page.puts "project: #{project_meta}"
     page.puts "tags: [#{tags}]"
     post.puts "description: "
     page.puts "image:"
