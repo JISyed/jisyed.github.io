@@ -5,6 +5,25 @@
     border-top-width: 5px;
 }
 
+.kiroku-entry-meta-half-block {
+    @media #{$medium} {
+    	//float: left;
+        display: inline;
+        width: 50%;
+    }
+}
+
+.kiroku-entry-meta-right-block-text {
+    //float: left;
+    @media #{$medium} {
+    	//float: right;
+        //float: left;
+        text-align: right;
+        //width: 50%;
+    }
+}
+
+
 .kiroku-domain-Art {
     border-top-color: $kiroku-domain-color-normal-art;
 }
