@@ -30,12 +30,16 @@ image:
       </div>
       <div class="kiroku-entry-meta-half-block">
           <div class="kiroku-entry-meta-right-block-text">
-              <div class="">
-                  Domain
+              {% if post.domain %}
+              <div class="kiroku-meta-domain-bubble">
+                  {{ post.domain }}
               </div>
+              {% endif %}
+              {% if post.project %}
               <div class="">
-                  Project
+                  Project:&nbsp;&nbsp; {{ post.project }}
               </div>
+              {% endif %}
           </div>
       </div>
     </div><!-- /.entry-meta -->
