@@ -190,7 +190,6 @@ body {
 	}
 	.tag {
 		display: inline-block;
-		//margin: 4px;
 		margin-top: 4px;
 		margin-right: 4px;
 		margin-bottom: 0px;
@@ -210,19 +209,21 @@ body {
 			background-color: lighten($base-color,40);
 		}
 	}
-	.entry-reading-time {
+	//.entry-reading-time {
 		//float: left;
 		//@media #{$medium} {
 		//	float: right;
 		//}
-	}
+	//}
 }
+/*
 header .entry-meta {
 	display: block; // hide header meta on small screens
 	@media #{$medium} {
 		display: block;
 	}
 }
+//*/
 #post,
 #page {
 	.entry-content {
