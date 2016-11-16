@@ -11,7 +11,7 @@ image:
 ---
 
 {% for post in paginator.posts %}
-<article class="hentry {% if post.domain %} kiroku-domain-entry-ribbon kiroku-domain-{{ post.domain }} {% endif %}">
+<article class="hentry {% if post.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ post.domain }} {% endif %}">
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">
@@ -31,7 +31,7 @@ image:
       <div class="kiroku-entry-meta-half-block">
           <div class="kiroku-entry-meta-right-block-text">
               {% if post.domain %}
-              <div class="kiroku-meta-domain-bubble">
+              <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.domain }}">
                   {{ post.domain }}
               </div>
               {% endif %}

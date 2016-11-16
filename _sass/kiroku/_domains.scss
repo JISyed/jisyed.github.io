@@ -1,4 +1,7 @@
 // CSS for styling domain metadata in posts
+////////////////////////////////////////////
+
+
 
 .kiroku-domain-entry-ribbon {
     border-top-style: solid;
@@ -29,40 +32,114 @@
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    color: #fff;
     border-radius: 3px;
-    background-color: lighten($base-color,50);
     padding: 2px 6px;
     .count {
-        background-color: lighten($base-color,40);
         border-radius: 0 3px 3px 0;
-    }
-    &:hover {
-        background-color: lighten($base-color,40);
     }
 }
 
 
-.kiroku-domain-Art {
+
+//
+// Domain "Bubbles" (shown on posts as metadata)
+//
+
+.kiroku-domain-bubble-Art {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-art;
+    .count {
+        background-color: $kiroku-domain-color-dark-art;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-art;
+    }
+}
+
+.kiroku-domain-bubble-Audio {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-audio;
+    .count {
+        background-color: $kiroku-domain-color-dark-audio;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-audio;
+    }
+}
+
+.kiroku-domain-bubble-Code {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-code;
+    .count {
+        background-color: $kiroku-domain-color-dark-code;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-code;
+    }
+}
+
+.kiroku-domain-bubble-Game-Dev {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-game-dev;
+    .count {
+        background-color: $kiroku-domain-color-dark-game-dev;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-game-dev;
+    }
+}
+
+.kiroku-domain-bubble-Writing {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-writing;
+    .count {
+        background-color: $kiroku-domain-color-dark-writing;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-writing;
+    }
+}
+
+.kiroku-domain-bubble-Linguistics {
+    color: #fff;
+    background-color: $kiroku-domain-color-normal-linguistics;
+    .count {
+        background-color: $kiroku-domain-color-dark-linguistics;
+    }
+    &:hover {
+        background-color: $kiroku-domain-color-dark-linguistics;
+    }
+}
+
+
+
+
+
+//
+// Domain Ribbons
+//
+
+
+.kiroku-domain-ribbon-Art {
     border-top-color: $kiroku-domain-color-normal-art;
 }
 
-.kiroku-domain-Audio {
+.kiroku-domain-ribbon-Audio {
     border-top-color: $kiroku-domain-color-normal-audio;
 }
 
-.kiroku-domain-Code {
+.kiroku-domain-ribbon-Code {
     border-top-color: $kiroku-domain-color-normal-code;
 }
 
-.kiroku-domain-Game-Dev {
+.kiroku-domain-ribbon-Game-Dev {
     border-top-color: $kiroku-domain-color-normal-game-dev;
 }
 
-.kiroku-domain-Writing {
+.kiroku-domain-ribbon-Writing {
     border-top-color: $kiroku-domain-color-normal-writing;
 }
 
-.kiroku-domain-Linguisitcs {
+.kiroku-domain-ribbon-Linguistics {
     border-top-color: $kiroku-domain-color-normal-linguistics;
 }
