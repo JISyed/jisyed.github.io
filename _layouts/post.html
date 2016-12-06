@@ -31,6 +31,12 @@
           <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
+        {% if page.domain %}
+        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}" style="color: #fff">{{ page.domain }}</h2>
+        {% endif %}
+        {% if page.project %}
+        <h2>Project:&nbsp;&nbsp; {{ page.project }}</h2>
+        {% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
