@@ -39,6 +39,9 @@
         {% if page.domain %}
         <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}" style="color: #fff">{{ page.domain }}</h2>
         {% endif %}
+        {% if page.project-type %}
+        <h2><span class="entry-date date published">Type:&nbsp;&nbsp; {{ page.project-type }}</span></h2>
+        {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content {% if page.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ page.domain }} {% endif %}">
