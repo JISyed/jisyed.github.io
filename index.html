@@ -37,7 +37,7 @@ image:
               {% endif %}
               {% if post.project %}
               <div class="">
-                  Project:&nbsp;&nbsp; {{ post.project }}
+                  Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ post.project | slugify }}">{{ post.project }}</a>
               </div>
               {% endif %}
           </div>
