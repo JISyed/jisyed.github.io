@@ -37,7 +37,7 @@ bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
-future:      false  # publish future dated posts --  true, false (default) 
+future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
 gems:
@@ -49,8 +49,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# http://jekyllrb.com/docs/permalinks/
+permalink:   /blog/:year/:title/
 
 # Amount of post to show on home page
 paginate: 5
