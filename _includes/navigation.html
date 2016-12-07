@@ -47,11 +47,11 @@
 			<a href="#">Archive</a>
 			<ul class="dl-submenu">
 				<li><a href="{{ site.url }}/archive-by-year/">Years</a></li>
-				<li><a href="{{ site.url }}/archive-by-domain/">Domains</a></li>
-				<li><a href="{{ site.url }}/archive-by-project/">Projects</a></li>
 				<li><a href="{{ site.url }}/tags/">Tags</a></li>
 			</ul>
 		</li>
+		<li><a href="{{ site.url }}/archive-by-domain/">Domains</a></li>
+		<li><a href="{{ site.url }}/archive-by-project/">Projects</a></li>
 		{% for link in site.data.navigation %}
 	    {% if link.url contains 'http' %}
 	        {% assign domain = '' %}
