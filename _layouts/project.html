@@ -57,25 +57,23 @@
 </div><!-- /#main -->
 
 
-
-
-    <article class="hentry">
-        <div class="entry-content">
-          <h2>Posts for project "{{ page.title }}"</h2>
-          {% assign posts_exist = false %}
-          {% for post in site.posts %}
-              {% if post.project == page.title %}
-              {% assign posts_exist = true %}
-              <ul>
-                <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-              </ul>
-              {% endif %}
-          {% endfor %}
-          {% if posts_exist == false %}
-            <p class="">There are no posts for this project.</p>
+<article class="hentry">
+    <div class="entry-content">
+      <h2>Posts for project "{{ page.title }}"</h2>
+      {% assign posts_exist = false %}
+      {% for post in site.posts %}
+          {% if post.project == page.title %}
+          {% assign posts_exist = true %}
+          <ul>
+            <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+          </ul>
           {% endif %}
-        </div>
-    </article>
+      {% endfor %}
+      {% if posts_exist == false %}
+        <p class="">There are no posts for this project.</p>
+      {% endif %}
+    </div>
+</article>
 
 
 

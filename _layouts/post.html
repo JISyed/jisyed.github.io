@@ -35,7 +35,7 @@
         <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}" style="color: #fff">{{ page.domain }}</h2>
         {% endif %}
         {% if page.project %}
-        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}">{{ page.project }}</a></h2>
+        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" style="text-decoration: underline;">{{ page.project }}</a></h2>
         {% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">

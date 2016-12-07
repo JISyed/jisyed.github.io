@@ -2,7 +2,6 @@
 layout: post-index
 title: Game Developer
 description: "Homepage of jisyed.github.io"
-#tags: [Jekyll, theme, themes, responsive, blog, modern]
 comments: false
 image:
   feature: /post-images/blog-header-img.jpg
@@ -37,7 +36,7 @@ image:
               {% endif %}
               {% if post.project %}
               <div class="">
-                  Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ post.project | slugify }}">{{ post.project }}</a>
+                  Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ post.project | slugify }}" style="text-decoration: underline;">{{ post.project }}</a>
               </div>
               {% endif %}
           </div>
