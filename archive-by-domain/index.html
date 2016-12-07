@@ -39,8 +39,8 @@ comments: false
 	<article>
 	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
 		<ul>
-    {% for post in site.tags[this_word] %}
-        {% if post.title != null %}
+    {% for post in site.posts %}
+        {% if post.title != null and post.domain and post.domain == domain_list[item] %}
           <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endif %}
     {% endfor %}
