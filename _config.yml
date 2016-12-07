@@ -53,7 +53,7 @@ sass:
 permalink:   /blog/:year/:title/
 
 # Amount of post to show on home page
-paginate: 5
+paginate: 20
 
 kramdown:
   input: GFM
