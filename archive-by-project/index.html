@@ -5,6 +5,7 @@ description: "An archive of posts by project."
 comments: false
 ---
 
+<!-- Conjure up a list of all projects recorded in this blog -->
 {% assign old_project_list = site.posts | map: "project" | compact | uniq %}
 {% assign project_list = "" %}
 {% for an_item in (0..old_project_list.size) %}
