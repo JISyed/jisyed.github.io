@@ -7,8 +7,10 @@ require "fileutils"
 
 public_dir      = "public"    # compiled site directory
 posts_dir       = "_posts"    # directory for blog files
+projects_dir    = "projects"  # directory for projects
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
+new_project_ext = "md"  # default new project file extension when using the new_project task
 
 
 #############################
@@ -91,6 +93,51 @@ task :new_page, :title do |t, args|
     page.puts "---"
   end
 end
+
+
+# usage rake new_project
+desc "Create a new project"
+task :new_project, :title do |t, args|
+  if args.title
+    title = args.title
+  else
+    title = get_stdin("Enter a title for your project: ")
+  end
+  filename = "#{projects_dir}/#{title.to_url}/index.#{new_project_ext}"
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+  domain_meta = get_stdin("Enter the project's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
+  starting_date = get_stdin("Enter the starting date of the project (if any) [YYYY-MM-DD]:")
+  ending_date = get_stdin("Enter the ending date of the project (if any) [YYYY-MM-DD]:")
+  type_meta = get_stdin("Enter the type of project (if any) (can be anything relevant):")
+  dirname = File.dirname(filename)
+  unless File.directory?(dirname)
+    FileUtils.mkdir_p(dirname)
+  end
+  puts "Creating new project: #{filename}"
+  open(filename, 'w') do |project|
+    project.puts "---"
+    project.puts "layout: project"
+    project.puts "title: \"#{title}\""
+    project.puts "description: "
+    project.puts "#image:"
+    project.puts "  #feature: abstract-5.jpg"
+    project.puts "  #credit: dargadgetz"
+    project.puts "  #creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/"
+    project.puts "do-show-start-date: true"
+    project.puts "do-show-end-date: true"
+    project.puts "start-date: #{starting_date}"
+    project.puts "end-date: #{ending_date}"
+    project.puts "modified: "
+    project.puts "domain: #{domain_meta}"
+    project.puts "project-type: #{type_meta}"
+    project.puts "share: true"
+    project.puts "comments: false"
+    project.puts "---"
+  end
+end
+
 
 def get_stdin(message)
   print message

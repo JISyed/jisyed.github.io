@@ -13,7 +13,7 @@ end-date: 2015-08-01
 #modified: 2016-12-06
 domain: Game-Dev
 project-type: Game Jam
-share: false
+share: true 
 comments: false
 ---
 
