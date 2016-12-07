@@ -18,6 +18,13 @@ comments: false
     {% endunless %}
 {% endfor %}
 {% assign project_list = project_list | split: "," %}
+<!-- Account for projects that have no posts -->
+{% assign project_page_list = site.pages | where: "layout","project" %}
+{% assign extra_project_list = project_page_list | map: "title" %}
+{% for a_project in extra_project_list %}
+    {% assign project_list = project_list | push: a_project %}
+{% endfor %}
+{% assign project_list = project_list | uniq %}
 
 
 <ul class="entry-meta inline-list">
@@ -39,12 +46,17 @@ comments: false
 	<article>
 	<h2 id="{{ this_word }}" class="tag-heading"><a href="{{ site.url }}/projects/{{ project_list[item] | slugify }}">{{ this_word }}</a></h2>
 		<ul>
+    {% assign posts_exist = false %}
     {% for post in site.posts %}
         {% if post.title != null and post.project and post.project == project_list[item] %}
+          {% assign posts_exist = true %}
           <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         {% endif %}
     {% endfor %}
 		</ul>
+    {% if posts_exist == false %}
+        <p class="">There are no posts for this project.</p>
+    {% endif %}
 	</article><!-- /.hentry -->
   {% endunless %}
 {% endfor %}
