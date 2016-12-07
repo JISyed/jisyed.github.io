@@ -17,7 +17,11 @@ share: true
 comments: false
 ---
 
-About Reveal:
+<figure>
+	<img src="/_images/project-images/reveal/revealTitle.png" alt="">
+</figure>
+
+## About Reveal:
 
 Reveal is a team-made game project in Unity3D and coded with C#.
 
@@ -32,3 +36,17 @@ Here are the team members:
  - Trisha DeSalvo – Artist, Animation
  - Jibran Syed – Programmer
  - Steven Hoover – Programmer
+
+### [Download Reveal from the Reveal site](http://revealthegame.wordpress.com/download/)
+
+### [Watch the Demo Trailer here](https://jibransyed.wordpress.com/2012/11/27/reveal-demo-trailer/)
+
+## Screenshots:
+
+{% capture screenshots %}
+	/_images/project-images/reveal/revealscreengrab00.png
+	/_images/project-images/reveal/revealscreengrab01.png
+	/_images/project-images/reveal/revealscreengrab02.png
+    /_images/project-images/reveal/revealscreengrab03.png
+{% endcapture %}
+{% include gallery images=screenshots caption="" cols=2 %}
