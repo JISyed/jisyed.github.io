@@ -15,6 +15,11 @@ share: true
 comments: false
 ---
 
+<figure>
+	<img src="/_images/project-images/gyra/gyrapreview.gif" alt="">
+	<figcaption></figcaption>
+</figure>
+
 ### [Play the game here](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=26581)
 
 Gyra is a game about defending your energy core from enemies.
@@ -42,5 +47,3 @@ Licensed under a Creative Commons Attribution (3.0) license
 
 Source code at:
 [https://github.com/JISyed/GyraTheGame](https://github.com/JISyed/GyraTheGame)
-
-------------------------
