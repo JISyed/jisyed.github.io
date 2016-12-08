@@ -1,10 +1,8 @@
 ---
 layout: project
 title: Galactic Space Crusher
-#image:
-  #feature: abstract-5.jpg
-  #credit: dargadgetz
-  #creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+image:
+  feature: /project-images/galactic-space-crusher/gsc_screen1.png
 description: "About the game Galactic Space Crusher"
 do-show-start-date: false
 do-show-end-date: true
@@ -13,7 +11,7 @@ end-date: 2015-08-01
 #modified: 2016-12-06
 domain: Game-Dev
 project-type: Game Jam
-share: true 
+share: true
 comments: false
 ---
 
