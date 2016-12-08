@@ -122,7 +122,7 @@ task :new_project, :title do |t, args|
     project.puts "title: \"#{title}\""
     project.puts "description: "
     project.puts "#image:"
-    project.puts "  #feature: /post-images/blog-header-img.jpg"
+    project.puts "  #feature: /project-images/project-name/image.png"
     project.puts "  #credit: Drew Hays"
     project.puts "  #creditlink: https://unsplash.com/drew_hays"
     project.puts "do-show-start-date: true"
