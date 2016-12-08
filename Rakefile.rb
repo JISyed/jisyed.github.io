@@ -103,11 +103,11 @@ task :new_project, :title do |t, args|
   else
     title = get_stdin("Enter a title for your project: ")
   end
+  domain_meta = get_stdin("Enter the project's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
   filename = "#{projects_dir}/#{title.to_url}/index.#{new_project_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  domain_meta = get_stdin("Enter the project's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
   starting_date = get_stdin("Enter the starting date of the project (if any) [YYYY-MM-DD]:")
   ending_date = get_stdin("Enter the ending date of the project (if any) [YYYY-MM-DD]:")
   type_meta = get_stdin("Enter the type of project (if any) (can be anything relevant):")
