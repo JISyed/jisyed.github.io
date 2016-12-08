@@ -32,7 +32,9 @@
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
         {% if page.domain %}
-        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}" style="color: #fff">{{ page.domain }}</h2>
+        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
+            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{{ page.domain }}</a>
+        </h2>
         {% endif %}
         {% if page.project %}
         <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" style="text-decoration: underline;">{{ page.project }}</a></h2>
