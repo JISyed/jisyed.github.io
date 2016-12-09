@@ -16,8 +16,9 @@ comments: false
 ---
 
 <figure>
-	<img src="/_images/project-images/gyra/gyrapreview.gif" alt="">
-	<figcaption></figcaption>
+    <a href="/_images/project-images/gyra/gyrapreview.gif" target="_blank">
+    	<img src="/_images/project-images/gyra/gyrapreview.gif" alt="">
+    </a>
 </figure>
 
 ### [Play the game here](http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=26581)
