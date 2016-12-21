@@ -8,16 +8,14 @@ do-show-start-date: true
 do-show-end-date: true
 start-date:
 end-date: 2014-08-25
-modified:
+modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
 share: true
 comments: false
 ---
 
-### [Play the game here](http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&uid=26581)
-
-## About:
+## About
 
 Travel in a strange surreal realm as you experience the world turning upside down. Only 3 levels.
 
@@ -27,14 +25,21 @@ Ideally, they would be connected by gravity-based puzzles, but I couldn’t deve
 
 The idea of the game is that you navigate in a surreal world where you flip gravity by reaching gravity-flipping “altars”.
 
-## Controls:
+
+## Controls
 
 - WASD + Mouse: Move and look around
 - Space: Jump
 - R: Reset the level
 - Esc: Quit the game (doesn't apply to web version)
 
-## Screenshots:
+
+## Download
+
+<div markdown="0"><a href="http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&uid=26581" class="btn">Downloads from Ludum Dare</a></div>
+
+
+## Screenshots
 
 {% capture screenshots %}
 	/_images/project-images/the-other-sky/tos1.png
@@ -46,6 +51,6 @@ The idea of the game is that you navigate in a surreal world where you flip grav
 {% include gallery images=screenshots caption="" cols=3 %}
 
 
-## Video:
+## Video
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/8jW3InhnpQI" frameborder="0"></iframe>

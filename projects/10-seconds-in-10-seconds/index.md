@@ -8,23 +8,28 @@ do-show-start-date: true
 do-show-end-date: true
 start-date:
 end-date: 2013-08-27
-modified:
+modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
 share: true
 comments: false
 ---
 
-### [Play the game here](http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581)
-
-### [Read the postmortem here](https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/)
+## About
 
 10 Seconds In 10 Seconds was the result of my first Ludum Dare competition and first game jam creation. The core functionality of the game was made in about 48 hours. As such, my aim was to keep the game simple, both in features an also in art-style. The theme was “10 seconds”.
 
 The premise of the game is a duel, so basically defeat your opponent. It’s set in an 3D abstract arena with controls similar to Asteroids. You can say even the characters are sort of inspired from Asteroids. The twist with this duel is that you switch back and forth between offense and defense every 10 seconds. In offense mode, you attack your opponent as much as possible. In defense mode, you defend yourself from your opponent. There are also 10 spirits hovering around you and if you collect relics, they will “second” you in your duel. Being seconded 10 times lets the spirits grant you a special ability for 10 seconds.
 
+ <div markdown="0"><a href="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" class="btn btn-info">Read Postmortem</a></div>
 
-## Screenshots:
+
+## Download
+
+ <div markdown="0"><a href="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" class="btn">Downloads on Ludum Dare</a></div>
+
+
+## Screenshots
 
 {% capture screenshots %}
 	/_images/project-images/10-seconds/10sec1.png
@@ -33,6 +38,7 @@ The premise of the game is a duel, so basically defeat your opponent. It’s set
 {% endcapture %}
 {% include gallery images=screenshots caption="" cols=3 %}
 
-## Video:
+
+## Video
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/ldR7YUpgXdA" frameborder="0"></iframe>

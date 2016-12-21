@@ -4,13 +4,11 @@ title: "Reveal"
 description:
 image:
   feature: /project-images/reveal/revealscreengrab01.png
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
 do-show-start-date: true
 do-show-end-date: true
 start-date:
 end-date: 2012-11-11
-modified:
+modified: 2016-12-21
 domain: Game-Dev
 project-type: College Team Project
 share: true
@@ -21,7 +19,7 @@ comments: false
 	<img src="/_images/project-images/reveal/revealTitle.png" alt="">
 </figure>
 
-## About Reveal:
+## About
 
 Reveal is a team-made game project in Unity3D and coded with C#.
 
@@ -37,11 +35,13 @@ Here are the team members:
  - Jibran Syed – Programmer
  - Steven Hoover – Programmer
 
-### [Download Reveal from the Reveal site](http://revealthegame.wordpress.com/download/)
 
-### [Watch the Demo Trailer here](https://jibransyed.wordpress.com/2012/11/27/reveal-demo-trailer/)
+## Download
 
-## Screenshots:
+<div markdown="0"><a href="http://revealthegame.wordpress.com/download/" class="btn">Download from Reveal site</a></div>
+
+
+## Screenshots
 
 {% capture screenshots %}
 	/_images/project-images/reveal/revealscreengrab00.png
@@ -50,3 +50,10 @@ Here are the team members:
     /_images/project-images/reveal/revealscreengrab03.png
 {% endcapture %}
 {% include gallery images=screenshots caption="" cols=2 %}
+
+
+## Trailer
+
+<iframe width="620" height="379" src="https://www.youtube.com/embed/T0F4oUwfBuM" frameborder="0" allowfullscreen></iframe>
+
+Trailer made by [Matthew Baran](http://matthewrbaran.wixsite.com/mrbaran)
