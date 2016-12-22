@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About Jishenaz
+title: About Jibran Syed
 image:
   feature: /blog-header-img.png
   #credit: Drew Hays
   #creditlink: https://unsplash.com/drew_hays
-description: "About Jishenaz"
+description: "About Jibran Syed"
 share: false
 comments: false
 ---
