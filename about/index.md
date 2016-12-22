@@ -1,22 +1,21 @@
 ---
 layout: page
 title: About Jishenaz
-#image:
-  #feature: abstract-5.jpg
-  #credit: dargadgetz
-  #creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-#modified: 2014-12-24
+image:
+  feature: /post-images/blog-header-img.jpg
+  credit: Drew Hays
+  creditlink: https://unsplash.com/drew_hays
 description: "About Jishenaz"
 share: false
 comments: false
 ---
 
-This personal web space is under construction. Coming in 2017.
+Jibran I. Syed (a.k.a. Jishenaz) is a coder who specialized in game development.
 
-----
+He works with gameplay code, game engine technology, sometimes mobile development, and on rare occasions: art. More than art, he loves the emerging interections between art and technology.
 
-Jibran Syed (a.k.a. Jishenaz) is a coder who specialized in game development. He works with both gameplay code and is learning lower-leveled engine code.
+From time to time, Jibran will share his projects here, along with ideas, and something random once in a while.
 
-Jibran is also interested in the arts, and in particular the intersection between art and technology.
+Expect more developments soon. Check out [the blog]({{ site.url }}), or if you want to talk, email at [{{ site.owner.email }}](mailto:{{ site.owner.email }}), or follow [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }}) on Twitter.
 
-This page will slowly improve over time.
+Resumé coming soon...
