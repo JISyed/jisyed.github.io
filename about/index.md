@@ -2,9 +2,9 @@
 layout: page
 title: About Jishenaz
 image:
-  feature: /post-images/blog-header-img.jpg
-  credit: Drew Hays
-  creditlink: https://unsplash.com/drew_hays
+  feature: /blog-header-img.png
+  #credit: Drew Hays
+  #creditlink: https://unsplash.com/drew_hays
 description: "About Jishenaz"
 share: false
 comments: false
