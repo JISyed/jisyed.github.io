@@ -6,7 +6,7 @@ image:
   feature: /project-images/reveal/revealscreengrab01.png
 do-show-start-date: true
 do-show-end-date: true
-start-date:
+start-date: 2012-09-09
 end-date: 2012-11-11
 modified: 2016-12-21
 domain: Game-Dev

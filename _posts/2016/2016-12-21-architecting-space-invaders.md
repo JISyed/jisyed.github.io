@@ -5,7 +5,7 @@ date: 2016-12-21 19:04:17 -0600
 modified: 2016-12-21 19:04:17 -0600
 domain: Game-Dev
 project: Space Invaders Software Architecture
-tags: [CSharp,Azul]
+tags: [CSharp,Azul,Visual Studios,2D]
 description:
 comments: false
 share: true
