@@ -10,7 +10,7 @@ start-date: 2016-03-20
 end-date: 2016-06-10
 modified:
 domain: Code
-project-type: Game Engine
+project-type: 2D Game Engine
 share: true
 comments: false
 ---
