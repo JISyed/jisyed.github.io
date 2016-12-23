@@ -16,6 +16,33 @@ He works with gameplay code, game engine technology, sometimes mobile developmen
 
 From time to time, Jibran will share his projects here, along with ideas, and something random once in a while.
 
-Expect more developments soon. Check out [the blog]({{ site.url }}), or if you want to talk, email at [{{ site.owner.email }}](mailto:{{ site.owner.email }}), or follow [@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }}) on Twitter.
+Expect more developments soon.
 
-Resumé coming soon...
+
+-----------
+
+
+<div style="display: flex;">
+    <div markdown="0">
+        <a href="{{ site.url }}" class="btn">
+            <i class="fa fa-lg fa-home" aria-hidden="true"></i> &nbsp;Go to Blog
+        </a>
+    </div>&nbsp;&nbsp;
+    <div markdown="0">
+        <a href="mailto:{{ site.owner.email }}" class="btn">
+            <i class="fa fa-lg fa-envelope" aria-hidden="true"></i> &nbsp;Email {{ site.owner.name }}
+        </a>
+    </div>
+</div>
+<div style="display: flex;">
+    <div markdown="0">
+        <a href="https://twitter.com/{{ site.owner.twitter }}" class="btn">
+            <i class="fa fa-lg fa-twitter" aria-hidden="true"></i> &nbsp;Follow @{{ site.owner.twitter }}
+        </a>
+    </div>&nbsp;&nbsp;
+    <div markdown="0">
+        <a href="{{ site.baseurl }}{% link resume/index.md %}" class="btn">
+            <i class="fa fa-lg fa-file-text" aria-hidden="true"></i> &nbsp;View Résumé
+        </a>
+    </div>
+</div>
