@@ -65,13 +65,17 @@ task :new_page, :title do |t, args|
   else
     title = get_stdin("Enter a title for your page: ")
   end
-  filename = "#{title.to_url}.#{new_page_ext}"
+  filename = "#{title.to_url}/index.#{new_page_ext}"
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite? ", ['y', 'n']) == 'n'
   end
-  domain_meta = get_stdin("Enter the post's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
-  project_meta = get_stdin("Enter the project associated with this post: ")
+  domain_meta = get_stdin("Enter the page's domain, if any (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
+  project_meta = get_stdin("Enter the project associated with this page, if any: ")
   tags = get_stdin("Enter tags to classify your page (comma separated): ")
+  dirname = File.dirname(filename)
+  unless File.directory?(dirname)
+    FileUtils.mkdir_p(dirname)
+  end
   puts "Creating new page: #{filename}"
   open(filename, 'w') do |page|
     page.puts "---"
@@ -83,7 +87,7 @@ task :new_page, :title do |t, args|
     page.puts "domain: #{domain_meta}"
     page.puts "project: #{project_meta}"
     page.puts "tags: [#{tags}]"
-    post.puts "description: "
+    page.puts "description: "
     page.puts "#image:"
     page.puts "  #feature: /post-images/blog-header-img.jpg"
     page.puts "  #credit: Drew Hays"
