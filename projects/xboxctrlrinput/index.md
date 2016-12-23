@@ -33,6 +33,14 @@ The project is hosted on Github and I invite anyone to help contribute. It’s f
 
 ## Downloads
 
-<div markdown="0"><a href="https://github.com/JISyed/Unity-XboxCtrlrInput/releases" class="btn">Latest Unity Package on GitHub</a></div>
+<div markdown="0">
+    <a href="https://github.com/JISyed/Unity-XboxCtrlrInput/releases" class="btn">
+        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Latest Unity Package on GitHub
+    </a>
+</div>
 
-<div markdown="0"><a href="https://github.com/JISyed/Unity-XboxCtrlrInput" class="btn">Source Code on GitHub</a></div>
+<div markdown="0">
+    <a href="https://github.com/JISyed/Unity-XboxCtrlrInput" class="btn">
+        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+    </a>
+</div>

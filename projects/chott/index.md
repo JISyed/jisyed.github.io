@@ -30,9 +30,17 @@ It is a time tracking app made as a final project for DePaul University's Androi
 
 ## Downloads
 
- <div markdown="0"><a href="https://github.com/JISyed/CHOTT-Android-App" class="btn">Source Code on GitHub</a></div>
+ <div markdown="0">
+    <a href="https://github.com/JISyed/CHOTT-Android-App" class="btn">
+        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+    </a>
+ </div>
 
- <div markdown="0"><a href="https://github.com/JISyed/CHOTT-Android-App/raw/master/ChottDocumentation.pdf" class="btn">Download Documentation (PDF)</a></div>
+ <div markdown="0">
+     <a href="https://github.com/JISyed/CHOTT-Android-App/raw/master/ChottDocumentation.pdf" class="btn">
+        <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> Download Documentation (PDF)
+     </a>
+ </div>
 
 
 ## Screenshots

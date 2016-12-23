@@ -28,9 +28,17 @@ The `ProcedutexTestWindow` project is a simple window showing 4 textures made wi
 
 ## Downloads
 
-<div markdown="0"><a href="https://github.com/JISyed/Procedutex" class="btn">Source Code on GitHub</a></div>
+<div markdown="0">
+    <a href="https://github.com/JISyed/Procedutex" class="btn">
+        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+    </a>
+</div>
 
-<div markdown="0"><a href="https://github.com/JISyed/Procedutex/raw/master/Procedutex%20Paper.pdf" class="btn">Download Procedutex Paper (PDF)</a></div>
+<div markdown="0">
+    <a href="https://github.com/JISyed/Procedutex/raw/master/Procedutex%20Paper.pdf" class="btn">
+        <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> Download Procedutex Paper (PDF)
+    </a>
+</div>
 
 
 ## Screenshots

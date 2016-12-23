@@ -38,7 +38,11 @@ Here are the team members:
 
 ## Download
 
-<div markdown="0"><a href="http://revealthegame.wordpress.com/download/" class="btn">Download from Reveal site</a></div>
+<div markdown="0">
+    <a href="http://revealthegame.wordpress.com/download/" class="btn">
+        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Download from Reveal site
+    </a>
+</div>
 
 
 ## Screenshots

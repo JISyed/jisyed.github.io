@@ -21,12 +21,20 @@ comments: false
 
 The premise of the game is a duel, so basically defeat your opponent. It’s set in an 3D abstract arena with controls similar to Asteroids. You can say even the characters are sort of inspired from Asteroids. The twist with this duel is that you switch back and forth between offense and defense every 10 seconds. In offense mode, you attack your opponent as much as possible. In defense mode, you defend yourself from your opponent. There are also 10 spirits hovering around you and if you collect relics, they will “second” you in your duel. Being seconded 10 times lets the spirits grant you a special ability for 10 seconds.
 
- <div markdown="0"><a href="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" class="btn btn-info">Read Postmortem</a></div>
+ <div markdown="0">
+    <a href="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" class="btn btn-info">
+        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Read Postmortem
+    </a>
+ </div>
 
 
 ## Download
 
- <div markdown="0"><a href="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" class="btn">Downloads on Ludum Dare</a></div>
+<div markdown="0">
+    <a href="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" class="btn">
+        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Downloads on Ludum Dare
+    </a>
+</div>
 
 
 ## Screenshots

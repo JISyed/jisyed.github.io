@@ -36,9 +36,17 @@ Press Escape to go back or quit the game.
 
 The web version was exported with Unity 5.2 HTML5 exporter. If something isn't working there, I highly recommend that you try out a desktop version of the game.
 
- <div markdown="0"><a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=26581" class="btn">Downloads on Ludum Dare</a></div>
+ <div markdown="0">
+    <a href="http://ludumdare.com/compo/ludum-dare-34/?action=preview&uid=26581" class="btn">
+        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Downloads on Ludum Dare
+    </a>
+ </div>
 
- <div markdown="0"><a href="https://github.com/JISyed/GyraTheGame" class="btn">Source Code on GitHub</a></div>
+ <div markdown="0">
+    <a href="https://github.com/JISyed/GyraTheGame" class="btn">
+        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+    </a>
+ </div>
 
 
 ## Credits

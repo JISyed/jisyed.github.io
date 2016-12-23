@@ -28,7 +28,11 @@ Loading the code project will require at least Visual Studios 2012 or later. Onl
 
 ## Download
 
- <div markdown="0"><a href="https://github.com/JISyed/SpaceInvaders-SoftwareArchitecture" class="btn">Source Code on GitHub</a></div>
+ <div markdown="0">
+    <a href="https://github.com/JISyed/SpaceInvaders-SoftwareArchitecture" class="btn">
+        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+    </a>
+ </div>
 
 
 ## Screenshots
