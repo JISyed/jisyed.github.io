@@ -37,7 +37,7 @@
         </h2>
         {% endif %}
         {% if page.project %}
-        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" style="text-decoration: underline;">{{ page.project }}</a></h2>
+        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" class="kiroku-domain-text-regular-{% if page.project-domain %}{{page.project-domain}}{% else %}{{ page.domain }}{% endif %}" style="text-decoration: underline;">{{ page.project }}</a></h2>
         {% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">
