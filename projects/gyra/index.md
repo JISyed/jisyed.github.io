@@ -31,7 +31,7 @@ Press Down (or S) to shrink the core.
 
 Press Escape to go back or quit the game.
 
-&nbsp;
+
 ## Downloads
 
 The web version was exported with Unity 5.2 HTML5 exporter. If something isn't working there, I highly recommend that you try out a desktop version of the game.
