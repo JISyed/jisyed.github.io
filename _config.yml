@@ -4,9 +4,8 @@ disqus_shortname:
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally use http://localhost:4000
-#url: http://localhost:4000
 url: https://jisyed.github.io
+url-without-scheme: jisyed.github.io
 
 # Owner/author information
 owner:
@@ -81,7 +80,7 @@ exclude:
   - Gemfile
   - Gruntfile.js
   - LICENSE
-  - README
+  - README.md
   - Rakefile
   - config
   - gulpfile.js

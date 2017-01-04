@@ -1,0 +1,140 @@
+================================
+Jibran Syed - Software Developer
+================================
+
+-------
+Contact
+-------
+
+    jibranisyed@outlook.com
+    jisyed.github.io
+    @Jishenaz
+    linkedin.com/in/jibranisyed
+
+
+—----
+About
+-----
+
+I am a recent graduate seeking opportunities to grow as a developer and help solve problems in mobile, interactive media, or game technology. Eager to learn and intrigued by where software will go next.
+
+
+
+----------
+Experience
+----------
+
+--Programmer
+    Spherical Cow Games
+    Online/Remote Work
+    July 2014 - Present
+Working on data and serialization for use with roleplaying games according to spec.
+
+
+--Intern Programmer
+    Spherical Cow Games
+    Online/Remote Work
+    June 2014 - July 2014
+Made custom editor interfaces for Unity3D to edit custom data resources.
+
+
+--Mobile & Web App Development Contractor
+    The Mx Group
+    Burr Ridge, IL
+    February 2014 - March 2014
+Mostly performed maintenance programming on a client web project, and helped resolve an issue with publishing a mobile app for another client project.
+
+
+—-------- 
+Education
+---------
+
+MS in Game Programming
+    DePaul University
+    Chicago, IL
+    Graduated November 2016
+    3.8 GPA
+
+
+BS in Game Development
+    DePaul University
+    Chicago, IL
+    Graduated June 2013
+    3.8 GPA
+
+
+
+----------------------
+Select College Courses
+----------------------
+
+Optimized C++
+    Various computation and memory optimizations in C++
+
+
+Game Architecture
+    Made space invaders with design patterns
+
+
+Multithreading
+    Learned multithreading primitives in C++11
+
+
+Android Development
+    Learned Android API and IDE, made a simple app
+
+
+Game Engine I, II, & III
+    Advanced OpenGL and simple animation engine
+
+
+
+------
+Skills
+------
+
+C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN, Git, Github, Markdown, Jekyll, OpenGL, GLSL, Windows, macOS, Ubuntu
+
+
+
+-----------------
+Featured Projects
+-----------------
+
+Gyra
+    Ludum Date Game Jam Entry
+    jisyed.github.io/projects/gyra/
+    Used C# and Unity3D
+
+
+Procedutex
+    Procedural Texture Library for Windows
+    jisyed.github.io/projects/procedutex/
+    Used C++, OpenGL, and Visual Studios
+
+
+Sea2D
+    2D Game Sprite Engine for macOS
+    jisyed.github.io/projects/sea2d/
+    Used C++, OpenGL, YAML, and Xcode
+
+
+Chott
+    Time Tracking App for Android
+    jisyed.github.io/projects/chott/
+    Used Java, Android Studios, and JSON
+
+
+XboxCtrlrInput
+    Input Library for Unity3D
+    jisyed.github.io/projects/xboxctrlrinput/
+    Used C#, Unity3D, and XInput.NET
+
+
+
+---------
+Interests
+---------
+
+Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
+
