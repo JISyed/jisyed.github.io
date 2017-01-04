@@ -54,10 +54,12 @@ I am not currently looking for opporunities at this time, but if you are curious
 
 ----------------------
 
+
 # Jibran Syed
 ## Software Developer
 
-&nbsp;
+<br/>  
+  
 ### Contact
 
 [<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;{{ site.owner.email }}](mailto:{{ site.owner.email }})  
@@ -65,12 +67,14 @@ I am not currently looking for opporunities at this time, but if you are curious
 [<i class="fa fa-linkedin" aria-hidden="true"></i> &nbsp;{{ site.owner.name }}'s LinkedIn](https://linkedin.com/in/{{ site.owner.linkedin }})  
 [<i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})
   
-&nbsp;  
+<br/>
+  
 ### About
 
 I am a recent graduate seeking opportunities to grow as a developer and help solve problems in mobile, interactive media, or game technology. Eager to learn and intrigued by where software will go next. 
   
-&nbsp;  
+<br/>
+  
 ### Experience
 
  - **Programmer**  
@@ -87,8 +91,9 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
    **The Mx Group; Burr Ridge, IL**  
    *February 2014 - March 2014*  
    Mostly performed maintenance programming on a client web project, and helped resolve an issue with publishing a mobile app for another client project.
-  
-&nbsp;  
+ 
+<br/>
+   
 ### Education
 
  - **MS in Game Programming**  
@@ -100,8 +105,9 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
    **DePaul University; Chicago, IL**  
    *June 2013*  
    3.8 GPA
-   
-&nbsp;
+  
+<br/>
+  
 ### Select College Courses
 
  - **Optimized C++**  
@@ -121,13 +127,15 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
     
  - **China Study Aborad -- Shanghai & Beijing -- August 2016**  
    Visited Chinese cultural sites and visited Chinese software companies to learn about collaboration and outsourcing.
-    
-&nbsp;
+
+<br/>
+  
 ### Skills
 
 C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN, Git, Github, Markdown, Jekyll, OpenGL, GLSL, Windows, macOS, Ubuntu
-
-&nbsp;
+  
+<br/>
+  
 ### Featured Projects
 
  - [**Gyra**]({{ site.baseurl }}{% link projects/gyra/index.md %})  
@@ -149,8 +157,9 @@ C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN,
  - [**XboxCtrlrInput**]({{ site.baseurl }}{% link projects/xboxctrlrinput/index.md %})  
    Input Library for Unity3D
    *Made using C#, Unity3D, and XInput.NET*
-
-&nbsp;
+  
+<br/>
+  
 ### Interests
 
 Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
