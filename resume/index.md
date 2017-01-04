@@ -56,6 +56,7 @@ I am not currently looking for opporunities at this time, but if you are curious
 
 
 # Jibran Syed
+
 ## Software Developer
 
 <br/>  
