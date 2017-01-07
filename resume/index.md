@@ -78,7 +78,7 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
   
 ### Experience
 
- - **Programmer**  
+ - **Part-Time Programmer**  
    **Spherical Cow Games; Online**  
    *July 2014 - Present*  
    Working on data and serialization for use with roleplaying games according to spec.
