@@ -27,7 +27,7 @@ Experience
 --Part-Time Programmer
     Spherical Cow Games
     Online/Remote Work
-    July 2014 - Present
+    July 2014 - February 2017
 Working on data and serialization for use with roleplaying games according to spec.
 
 
@@ -137,4 +137,3 @@ Interests
 ---------
 
 Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
-
