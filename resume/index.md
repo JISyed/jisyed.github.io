@@ -78,15 +78,19 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
   
 ### Experience
 
- - **Part-Time Programmer**  
-   **Spherical Cow Games; Online**  
-   *July 2014 - February 2017*  
-   Working on data and serialization for use with roleplaying games according to spec.
+ - **Voluntary Part-Time Unity Developer**  
+   **Limbicnation; Online**  
+   *October 2014 - March 2016*  
+   Made an software system for Unity to observe audio output and offer the decibel and frequency of the current output. Used the audio output to manipulate various elements in a scene with various scripts (like light intensity, material color, object position, prefab swapping, texture swapping, mesh deformation, wireframe toggle, field of view, etc.).
+   Made a script to detect a player entering a trigger zone and made several scripts to perform different tasks based on entering trigger zones (like triggering animations, music, waypoint movement, wireframe toggle, trigger particles, prefab swapping, camera switching, object shaking, etc.).
+   Quickly implemented new functionality with script-based programming to manipulate Unity objects in various ways (as mentioned above).
 
- - **Intern Programmer**  
+ - **Part-Time Unity Programmer**  
    **Spherical Cow Games; Online**  
-   *June 2014 - July 2014*  
-   Made custom editor interfaces for Unity3D to edit custom data resources.
+   *June 2014 - February 2017*  
+   Implemented data-based game asset systems as per project specifications.
+   Used Unity Editor classes to create and edit custom level mission data that is serialized as ScriptableObjects. 
+   Made an advanced data asset system for Unity for the facilitation of RPG games (progression, stats, and abilities). Created data for developer use in ScriptableObjects and data for game use in XML files.
 
  - **Mobile & Web App Development Contractor**  
    **The Mx Group; Burr Ridge, IL**  
@@ -115,16 +119,16 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
    Various computation and memory optimizations in C++
     
  - **Game Architecture**  
-   Made space invaders with design patterns
+   Made [space invaders]({{ site.baseurl }}{% link projects/space-invaders-software-architecture/index.md %}) with design patterns
 
  - **Multithreading**  
    Learned multithreading primitives in C++11
   
  - **Android Development**  
-   Learned Android API and IDE, made a simple app
+   Learned Android API and IDE, made a [simple app]({{ site.baseurl }}{% link projects/chott/index.md %})
     
  - **Game Engine I, II, & III**  
-   Advanced OpenGL and simple animation engine
+   Advanced [OpenGL and simple animation engine]({{ site.baseurl }}{% link projects/lge/index.md %})
     
  - **China Study Aborad -- Shanghai & Beijing -- August 2016**  
    Visited Chinese cultural sites and visited Chinese software companies to learn about collaboration and outsourcing.

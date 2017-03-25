@@ -24,18 +24,17 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
 Experience
 ----------
 
---Part-Time Programmer
+--Voluntary Part-Time Unity Developer
+    Limbicnation
+    Online/Remote Work
+    October 2014 - March 2016
+Used Unity’s audio output to manipulate various elements in a scene with various scripts (like light intensity, material color, object position, prefab swapping, texture swapping, mesh deformation, wireframe toggle, field of view, etc.). Made various scripts to trigger events on certain sound frequencies.
+
+--Part-Time Unity Programmer
     Spherical Cow Games
     Online/Remote Work
-    July 2014 - February 2017
+    June 2014 - February 2017
 Working on data and serialization for use with roleplaying games according to spec.
-
-
---Intern Programmer
-    Spherical Cow Games
-    Online/Remote Work
-    June 2014 - July 2014
-Made custom editor interfaces for Unity3D to edit custom data resources.
 
 
 --Mobile & Web App Development Contractor
@@ -118,6 +117,10 @@ Sea2D
     jisyed.github.io/projects/sea2d/
     Used C++, OpenGL, YAML, and Xcode
 
+LGE
+    3D Graphics Engine for Windows
+    jisyed.github.io/projects/lge/
+    Used C++, OpenGL, YAML, and Visual Studios
 
 Chott
     Time Tracking App for Android
