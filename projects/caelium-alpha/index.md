@@ -7,7 +7,7 @@ image:
   #credit: Drew Hays
   #creditlink: https://unsplash.com/drew_hays
 do-show-start-date: true
-do-show-end-date: true
+do-show-end-date: false
 start-date: 2017-04-21
 end-date: 
 modified: 
