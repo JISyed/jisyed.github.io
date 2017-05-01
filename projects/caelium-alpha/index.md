@@ -25,7 +25,7 @@ comments: false
 
 ## About
 
-**Caelium Alpha** is an digital orrery sandbox. 
+**Caelium Alpha** is a digital orrery sandbox. 
 
 An [orrery](https://www.google.com/search?q=orrery&tbm=isch) is a model of the solar system; small worlds you can carry with you. Make your own little planetary system orrery by adding planets, moons, and adjusting properties. Then marvel at the possibilities in the universe :)
 
