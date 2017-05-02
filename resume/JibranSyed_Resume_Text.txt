@@ -106,6 +106,12 @@ Gyra
     Used C# and Unity3D
 
 
+Caelium Alpha
+    Digital Orrery Sandbox Game
+    jisyed.github.io/projects/caelium-alpha/
+    Used C# and Unity3D
+
+
 Procedutex
     Procedural Texture Library for Windows
     jisyed.github.io/projects/procedutex/
@@ -140,3 +146,4 @@ Interests
 ---------
 
 Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
+
