@@ -7,10 +7,12 @@
 {% if page.image.feature %}<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}/_images/{{ page.image.feature }}">
 {% else %}<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/_images/{{ page.image.thumb }}{% else %}{{ site.url }}/_images/{{ site.logo }}{% endif %}">{% endif %}
+<meta name="twitter:image" content="{% if page.image.thumb %}{{ site.url }}/_images/{{ page.image.thumb }}{% else %}{{ site.url }}/_images/{{ site.logo }}{% endif %}">
+{% endif %}
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:creator" content="@{{ site.owner.twitter }}">{% endif %}
+<meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+{% endif %}
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
@@ -75,8 +77,8 @@
 <link rel="manifest" href="{{ site.url }}/_images/favicons/manifest.json">
 <link rel="mask-icon" href="{{ site.url }}/_images/favicons/safari-pinned-tab.svg" color="#2591ff">
 <link rel="shortcut icon" href="{{ site.url }}/_images/favicons/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="Jishenaz">
-<meta name="application-name" content="Jishenaz">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+<meta name="application-name" content="{{ site.title }}">
 <meta name="msapplication-TileColor" content="#677994">
 <meta name="msapplication-TileImage" content="{{ site.url }}/_images/favicons/mstile-144x144.png">
 <meta name="msapplication-config" content="{{ site.url }}/_images/favicons/browserconfig.xml">
