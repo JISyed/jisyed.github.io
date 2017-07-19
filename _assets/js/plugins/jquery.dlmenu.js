@@ -102,7 +102,10 @@
 
 					var $flyin = $submenu.clone().css({
 						opacity: 0,
-						margin: 0
+						margin: 0,
+						position: "absolute",
+    					top: 0,
+						width: "100%"
 					}).insertAfter( self.$menu ),
 						onAnimationEndFn = function() {
 							self.$menu.off( self.animEndEventName ).removeClass( self.options.animationClasses.classout ).addClass( 'dl-subview' );
