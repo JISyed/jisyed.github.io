@@ -47,17 +47,20 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 
-  // For Scroll Up
 
+  // For Scroll Up
+  $('#scrollup').css("position","fixed");   //These 3 properties were not working in the scss files
+  $('#scrollup').css("bottom","0px");
+  $('#scrollup').css("right","20px");
   $(window).scroll(function () {
-      if ($(this).scrollTop() > 100) {
-          $('.scrollup').fadeIn();
+      if ($(this).scrollTop() > 500) {
+          $('#scrollup').fadeIn();
       } else {
-          $('.scrollup').fadeOut();
+          $('#scrollup').fadeOut();
       }
   });
 
-  $('.scrollup').click(function () {
+  $('#scrollup').click(function () {
       $("html, body").animate({
           scrollTop: 0
       }, 600);

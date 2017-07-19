@@ -2,15 +2,20 @@
 // Scroll Up
 //
 
-.scrollup {
-  //background-color: #000;
-  bottom: 10px;
+#scrollup {
+  bottom: 0px;
+  cursor: pointer;
   display: none;
   height: 30px;
   position: fixed;
-  right: 20px;
-  //text-indent: -9999px;
+  right: 0px;
   width: 40px;
-  z-index: 99;
-  cursor: pointer;
+  z-index: 1000;
+
+/*
+  @media #{$medium} {
+      bottom: 25px;
+      right: 25px;
+  }
+ */
 }

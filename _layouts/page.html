@@ -11,6 +11,7 @@
 
 {% include browser-upgrade.html %}
 {% include navigation.html %}
+{% include scroll-up-btn.html %}
 
 {% if page.image.feature %}
 <div class="entry-header">
@@ -45,7 +46,6 @@
       </footer>
     </div><!-- /.entry-content -->
     {% if page.comments == true and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
-    {% include scroll-up-btn.html %}
   </article>
 </div><!-- /#main -->
 
