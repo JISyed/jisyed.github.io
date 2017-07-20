@@ -171,6 +171,35 @@
 
 
 
+//
+// Domain "Post" Background (for domain archive)
+//
+
+.kiroku-domain-background-Art {
+    background-color: $kiroku-domain-color-pale-art !important;
+}
+
+.kiroku-domain-background-Audio {
+    background-color: $kiroku-domain-color-pale-audio !important;
+}
+
+.kiroku-domain-background-Code {
+    background-color: $kiroku-domain-color-pale-code !important;
+}
+
+.kiroku-domain-background-Game-Dev {
+    background-color: $kiroku-domain-color-pale-game-dev !important;
+}
+
+.kiroku-domain-background-Writing {
+    background-color: $kiroku-domain-color-pale-writing !important;
+}
+
+.kiroku-domain-background-Linguistics {
+    background-color: $kiroku-domain-color-pale-linguistics !important;
+}
+
+
 
 //
 // Domain Text
@@ -199,4 +228,30 @@
 
 .kiroku-domain-text-regular-Linguistics {
     color: $kiroku-domain-color-normal-linguistics !important;
+}
+
+
+
+.kiroku-domain-text-dark-Art, {
+    color: $kiroku-domain-color-dark-art !important;
+}
+
+.kiroku-domain-text-dark-Audio {
+    color: $kiroku-domain-color-dark-audio !important;
+}
+
+.kiroku-domain-text-dark-Code, {
+    color: $kiroku-domain-color-dark-code !important;
+}
+
+.kiroku-domain-text-dark-Game-Dev {
+    color: $kiroku-domain-color-dark-game-dev !important;
+}
+
+.kiroku-domain-text-dark-Writing {
+    color: $kiroku-domain-color-dark-writing !important;
+}
+
+.kiroku-domain-text-dark-Linguistics {
+    color: $kiroku-domain-color-dark-linguistics !important;
 }

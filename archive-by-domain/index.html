@@ -38,8 +38,8 @@ image:
 {% for item in (0..domain_list.size) %}
   {% unless forloop.last %}
   {% capture this_word %}{{ domain_list[item] | strip_newlines }}{% endcapture %}
-	<article class="entry-content {% if this_word %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ this_word }} {% endif %}">
-	<h2 id="{{ this_word }}" class="tag-heading">{{ this_word }}</h2>
+	<article class="entry-content {% if this_word %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ this_word }} kiroku-domain-background-{{ this_word }} {% endif %}">
+	<h2 id="{{ this_word }}" class="tag-heading {% if this_word %} kiroku-domain-text-dark-{{ this_word }} {% endif %}">{{ this_word }}</h2>
 		<ul>
     {% for post in site.posts %}
         {% if post.title != null and post.domain and post.domain == domain_list[item] %}
