@@ -59,7 +59,19 @@ image:
       {% endif %}
   {% endfor %}
 	<article class="entry-content {% if curr_posts_domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ curr_posts_domain }} {% endif %}">
-    	<h2 id="{{ this_word }}" class="tag-heading">
+        <div class="entry-meta kiroku-entry-meta-block">
+            <div class="kiroku-entry-meta-half-block"></div>
+            <div class="kiroku-entry-meta-half-block">
+                <div class="kiroku-entry-meta-right-block-text">
+                    {% if curr_posts_domain %}
+                    <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ curr_posts_domain }}">
+                        <a href="{{ site.url }}/archive-by-domain/#{{ curr_posts_domain }}">{{ curr_posts_domain }}</a>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <h2 id="{{ this_word }}" class="tag-heading">
             <a href="{{ site.url }}/projects/{{ project_list[item] | slugify }}">{{ this_word }}</a>
         </h2>
     		<ul>
