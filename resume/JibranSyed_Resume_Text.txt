@@ -10,13 +10,14 @@ Contact
     jisyed.github.io
     @Jishenaz
     linkedin.com/in/jibranisyed
+    US Citizen
 
 
 —----
 About
 -----
 
-I am a recent graduate seeking opportunities to grow as a developer and help solve problems in mobile, interactive media, or game technology. Eager to learn and intrigued by where software will go next.
+I am a grad school graduate seeking employment to grow as a developer and help solve problems in interactive media, mobile, or games. Eager to learn and intrigued by where software will go next.
 
 
 
@@ -24,17 +25,18 @@ I am a recent graduate seeking opportunities to grow as a developer and help sol
 Experience
 ----------
 
+--Part-Time Unity Programmer
+    Spherical Cow Games
+    Online/Remote Work
+    June 2014 - February 2017
+Worked with custom Unity editor windows to create data object systems for games, like missions and player units. Worked on data and serialization system using ScriptableObject & XML for use with roleplaying games according to spec. (https://github.com/JISyed/SphericalCow-UnityRpgData)
+
+
 --Voluntary Part-Time Unity Developer
     Limbicnation
     Online/Remote Work
     October 2014 - March 2016
 Used Unity’s audio output to manipulate various elements in a scene with various scripts (like light intensity, material color, object position, prefab swapping, texture swapping, mesh deformation, wireframe toggle, field of view, etc.). Made various scripts to trigger events on certain sound frequencies.
-
---Part-Time Unity Programmer
-    Spherical Cow Games
-    Online/Remote Work
-    June 2014 - February 2017
-Working on data and serialization for use with roleplaying games according to spec.
 
 
 --Mobile & Web App Development Contractor
@@ -44,21 +46,21 @@ Working on data and serialization for use with roleplaying games according to sp
 Mostly performed maintenance programming on a client web project, and helped resolve an issue with publishing a mobile app for another client project.
 
 
-—-------- 
+—--------
 Education
 ---------
 
-MS in Game Programming
+MS in Game Programming (Applied Software Engineering)
     DePaul University
     Chicago, IL
-    Graduated November 2016
+    September 2014 - November 2016
     3.8 GPA
 
 
-BS in Game Development
+BS in Game Development (Programming Concentration)
     DePaul University
     Chicago, IL
-    Graduated June 2013
+    September 2009 - June 2013
     3.8 GPA
 
 
@@ -68,23 +70,28 @@ Select College Courses
 ----------------------
 
 Optimized C++
-    Various computation and memory optimizations in C++
+    Learned optimizations in C++, involving padding, const correctness, and alignment, and more.
 
 
 Game Architecture
-    Made space invaders with design patterns
-
+    Made space invaders with design patterns like flyweight, command, strategy, and more.
+    (https://jisyed.github.io/projects/space-invaders-software-architecture/)
 
 Multithreading
-    Learned multithreading primitives in C++11
+    Learned multithreading primitives in C++11.
 
 
 Android Development
-    Learned Android API and IDE, made a simple app
-
+    Learned Android API and IDE; made a simple app for tracking time spent on creative hobbies.
+    (https://jisyed.github.io/projects/chott/)
 
 Game Engine I, II, & III
-    Advanced OpenGL and simple animation engine
+    Made an advanced OpenGL and simple animation engine.
+    (https://jisyed.github.io/projects/lge/)
+
+
+Study Abroad — Shanghai & Beijing
+    Visited cultural sites and software companies to learn about collaboration and outsourcing.
 
 
 
@@ -100,15 +107,15 @@ C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN,
 Featured Projects
 -----------------
 
-Gyra
-    Ludum Date Game Jam Entry
-    jisyed.github.io/projects/gyra/
-    Used C# and Unity3D
-
-
 Caelium Alpha
     Digital Orrery Sandbox Game
     jisyed.github.io/projects/caelium-alpha/
+    Used C# and Unity3D
+
+
+Gyra
+    Ludum Date Game Jam Entry
+    jisyed.github.io/projects/gyra/
     Used C# and Unity3D
 
 
@@ -123,10 +130,12 @@ Sea2D
     jisyed.github.io/projects/sea2d/
     Used C++, OpenGL, YAML, and Xcode
 
+
 LGE
     3D Graphics Engine for Windows
     jisyed.github.io/projects/lge/
     Used C++, OpenGL, YAML, and Visual Studios
+
 
 Chott
     Time Tracking App for Android
@@ -146,4 +155,3 @@ Interests
 ---------
 
 Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
-
