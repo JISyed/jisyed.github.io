@@ -17,7 +17,7 @@ share: true
 
 Submitting to the App Store is a pretty hefty task. While submitting Gyra, I sort of documented as much of the process as I could. This is not by any means comprehensive, as I omit a lot of details about iTunes Connect. However, I hope that this will still be sort of a helpful guide in submitting Unity games to the App Store.
 
-The following instructions below require subscribing to the Apple Developer Program (which is $99 a year).
+This guide presumes that you already exported your game to iOS from Unity's Build Settings. This creates an Xcode project you may have to tinker with later. You must also be subscribed to the Apple Developer Program (which is $99 a year for individuals).
 
 --------
 
