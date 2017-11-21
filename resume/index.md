@@ -17,11 +17,11 @@ looking_for_opporunities: true
 
 {% if page.looking_for_opporunities %}
 
-I am currently looking for opportunities in games, game engines, mobile, interactive media, or similar fields. See my resume below.
+I am currently looking for opportunities in mobile development (iOS), interactive media, game technologies, or similar fields. See my resume below.
 
 {% else %}
 
-I am not currently looking for opporunities at this time, but if you are curious, you may see my education and experience below.
+I am not currently looking for opportunities at this time, but if you are curious, you may see my education and experience below.
 
 {% endif %}
 
@@ -40,13 +40,13 @@ I am not currently looking for opporunities at this time, but if you are curious
 </div>
 <div style="display: flex;">
     <div markdown="0">
-        <a href="{{ site.baseurl }}/resume/JibranSyed_Resume.pdf" class="btn">
-            <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download PDF Résumé
+        <a href="https://www.dropbox.com/s/jn5ozpopfrmhen7/JibranSyed_Resume.pdf" class="btn">
+            <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download Résumé (PDF)
         </a>
     </div>&nbsp;&nbsp;
     <div markdown="0">
-        <a href="{{ site.baseurl }}/resume/JibranSyed_Resume_Text.txt" class="btn">
-            <i class="fa fa-lg fa-file-text" aria-hidden="true"></i> &nbsp;Download Text Résumé
+        <a href="https://github.com/{{ site.owner.github }}?tab=repositories" class="btn">
+            <i class="fa fa-lg fa-github" aria-hidden="true"></i> &nbsp;View Projects on GitHub
         </a>
     </div>
 </div>
