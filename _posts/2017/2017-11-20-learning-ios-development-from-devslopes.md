@@ -23,7 +23,7 @@ But now I finished learning the basics of iOS development from the [DevSlopes te
 
 Last month, I completed [their iOS 11 & Swift 4 course](https://www.udemy.com/devslopes-ios11/){:target="_blank"}. You can see [my **Certificate of Completion** here](https://www.udemy.com/certificate/UC-68TLAGBR/){:target="_blank"}.
 
-At DevSlopes, you code a several projects learning the different aspects of the iOS platform. The following is a select list of such projects I uploaded onto GitHub. You can see screenshots and more information there:
+At DevSlopes, you code several projects, learning the different aspects of the iOS platform. The following is a select list of such projects I uploaded onto GitHub. You can see screenshots and more information there:
 
  - [**RetroCalc**](https://github.com/JISyed/DevSlopesProj-RetroCalc){:target="_blank"}**:** A simple iOS calculator app
  - [**Ramp Up**](https://github.com/JISyed/DevSlopesProj-RampUp){:target="_blank"}**:** An iOS ARKit demo featuring live-sized skateboard ramps
