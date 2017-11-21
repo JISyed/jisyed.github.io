@@ -57,27 +57,28 @@ I am not currently looking for opportunities at this time, but if you are curiou
 
 # Jibran Syed
 
-## Software Developer
+### Software Developer
 
 <br/>  
 
-### Contact
+## Contact
 
 [<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;{{ site.owner.email }}](mailto:{{ site.owner.email }})  
 [<i class="fa fa-home" aria-hidden="true"></i> &nbsp;{{ site.url-without-scheme }}]({{ site.url }})  
 [<i class="fa fa-linkedin" aria-hidden="true"></i> &nbsp;{{ site.owner.name }}'s LinkedIn](https://linkedin.com/in/{{ site.owner.linkedin }})  
 [<i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  
-<i class="fa fa-flag" aria-hidden="true"></i> &nbsp;US Citizen
+<i class="fa fa-flag" aria-hidden="true"></i> &nbsp;US Citizen  
+<i class="fa fa-phone" aria-hidden="true"></i> &nbsp;Email me for phone number
 
 <br/>
 
-### About
+## About
 
 I am a grad school graduate seeking employment to grow as a developer and help solve problems in interactive media, mobile, or games. Eager to learn and intrigued by where software will go next.
 
 <br/>
 
-### Experience
+## Experience
 
 - **Part-Time Unity Programmer**  
   **Spherical Cow Games; Online**  
@@ -100,7 +101,7 @@ I am a grad school graduate seeking employment to grow as a developer and help s
 
 <br/>
 
-### Education
+## Education
 
  - **MS in Game Programming (Applied Software Engineering)**  
    **DePaul University; Chicago, IL**  
@@ -114,43 +115,53 @@ I am a grad school graduate seeking employment to grow as a developer and help s
 
 <br/>
 
-### Select College Courses
+## Select Courses
+
+ - **[iOS 11 Development & Swift 4](https://www.udemy.com/devslopes-ios11/)**  
+   *[Udemy](https://www.udemy.com/)*  
+   [Finished learning](https://www.udemy.com/certificate/UC-68TLAGBR/) basics of iOS development by making [several app projects]({{ site.baseurl }}{% link _posts/2017/2017-11-20-learning-ios-development-from-devslopes.md %}). Taught by [Devslopes](https://devslopes.com/)
 
  - **Optimized C++**  
+   *DePaul University*  
    Learned optimizations in C++, involving padding, const correctness, and alignment, and more
 
  - **Game Architecture**  
-   Made [space invaders]({{ site.baseurl }}{% link projects/space-invaders-software-architecture/index.md %}) with design patterns
+   *DePaul University*  
+   Made [space invaders]({{ site.baseurl }}{% link projects/space-invaders-software-architecture/index.md %}) with design patterns, including command, strategy, state, observer, etc.
 
  - **Multithreading**  
-   Learned multithreading primitives in C++11
+   *DePaul University*  
+   Learned multithreading primitives in C++11, including mutexes, `lock_guard`'s, and more
 
  - **Android Development**  
-   Learned Android API and IDE, made a [simple app]({{ site.baseurl }}{% link projects/chott/index.md %}) for tracking time spent on creative hobbies
+   *DePaul University*  
+   Learned Android API and IDE, and made a [simple app]({{ site.baseurl }}{% link projects/chott/index.md %}) for tracking time spent on creative hobbies
 
  - **Game Engine I, II, & III**  
-   Made an advanced [OpenGL and simple animation engine]({{ site.baseurl }}{% link projects/lge/index.md %})
+   *DePaul University*  
+   Made an [OpenGL-powered game engine]({{ site.baseurl }}{% link projects/lge/index.md %}) for Windows that includes a skinned animation system
 
- - **China Study Aborad -- Shanghai & Beijing -- August 2016**  
+ - **China Study Abroad -- Shanghai & Beijing -- August 2016**  
+   *DePaul University*  
    Visited Chinese cultural sites and visited Chinese software companies to learn about collaboration and outsourcing
 
 <br/>
 
-### Skills
+## Skills
 
-C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN, Git, Github, Markdown, Jekyll, OpenGL, GLSL, Windows, macOS, Ubuntu
+C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3D, Perforce, SVN, Git, Github, Markdown, Jekyll, OpenGL, GLSL, Windows, macOS, Ubuntu
 
 <br/>
 
-### Featured Projects
+## Featured Projects
 
-- [**Caelium Alpha**]({{ site.baseurl }}{% link projects/caelium-alpha/index.md %})  
-  Digital Orrery Sandbox Game for Ludum Dare Game Jam
-  *Made using C# and Unity3D*
+ - [**Caelium Alpha**]({{ site.baseurl }}{% link projects/caelium-alpha/index.md %})  
+   Digital Orrery Sandbox Game for Ludum Dare Game Jam  
+   *Made using C# and Unity3D*
 
  - [**Gyra**]({{ site.baseurl }}{% link projects/gyra/index.md %})  
-   Ludum Dare Game Jam Entry  
-   *Made using C# and Unity3D*
+   Quick Arcade Game - Now on the [App Store](https://itunes.apple.com/us/app/gyra-ludum-dare-34-game/id1311941156)  
+   *Made using C#, Unity3D, and Xcode*
 
  - [**Procedutex**]({{ site.baseurl }}{% link projects/procedutex/index.md %})  
    Procedural Texture Library for Windows  
@@ -169,11 +180,11 @@ C++, C#, C, Java, Visual Studios, Xcode, Android Studio, Unity3D, Perforce, SVN,
    *Made using Java, Android Studio, and JSON*
 
  - [**XboxCtrlrInput**]({{ site.baseurl }}{% link projects/xboxctrlrinput/index.md %})  
-   Input Library for Unity3D
+   Input Library for Unity3D  
    *Made using C#, Unity3D, and XInput.NET*
 
 <br/>
 
-### Interests
+## Interests
 
 Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
