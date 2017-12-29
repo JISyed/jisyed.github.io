@@ -155,6 +155,10 @@ C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3
 
 ## Featured Projects
 
+ - [**Minapps Alarm Clock**]({{ site.baseurl }}{% link projects/minapps-alarm-clock/index.md %})  
+   Bedside alarm clock app for iOS  
+   *Made using Swift 4, Xcode, and Cocoa Touch*
+
  - [**Caelium Alpha**]({{ site.baseurl }}{% link projects/caelium-alpha/index.md %})  
    Digital Orrery Sandbox Game for Ludum Dare Game Jam  
    *Made using C# and Unity3D*
