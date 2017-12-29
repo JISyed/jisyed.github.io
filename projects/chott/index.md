@@ -19,7 +19,7 @@ comments: false
 
 Chott stands for "Creative Hobby Occurrence Time Tracker".
 
-It is a time tracking app made as a final project for DePaul University's Android evelopment course. Built with Android Studios 1.3.2 and targeted for at least Android 4.2 Jelly Bean or higher (API Level 17). Intentionally designed for Android 6.0 Marshmellow (API Level 23).
+It is a time tracking app made as a final project for DePaul University's Android development course. Built with Android Studios 1.3.2 and targeted for at least Android 4.2 Jelly Bean or higher (API Level 17). Intentionally designed for Android 6.0 Marshmallow (API Level 23).
 
 ## Features
 
