@@ -157,7 +157,11 @@ C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3
 
  - [**Minapps Alarm Clock**]({{ site.baseurl }}{% link projects/minapps-alarm-clock/index.md %})  
    Bedside alarm clock app for iOS  
-   *Made using Swift 4, Xcode, and Cocoa Touch*
+   *Made using Swift 4, Xcode, Cocoa Touch, and Core Data*
+
+ - [**Chott for iOS**]({{ site.baseurl }}{% link projects/chott-for-ios/index.md %})  
+   Remake of [Chott]({{ site.baseurl }}{% link projects/chott/index.md %}) time tracking app for iOS 11+  
+   *Made using Swift 4, Xcode, Cocoa Touch, and Core Data*
 
  - [**Caelium Alpha**]({{ site.baseurl }}{% link projects/caelium-alpha/index.md %})  
    Digital Orrery Sandbox Game for Ludum Dare Game Jam  
@@ -179,7 +183,7 @@ C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3
    3D Graphics Engine for Windows  
    *Made using C++, OpenGL, YAML, and Visual Studios*
 
- - [**Chott**]({{ site.baseurl }}{% link projects/chott/index.md %})  
+ - [**Chott for Android**]({{ site.baseurl }}{% link projects/chott/index.md %})  
    Time Tracking App for Android  
    *Made using Java, Android Studio, and JSON*
 
