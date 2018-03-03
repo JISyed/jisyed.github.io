@@ -14,7 +14,7 @@ share: true
 
 Usually, when you want an object in code to have a unique ID, a practical solution would be to use something like a GUID (or in Apple's SDKs: a UUID). These IDs can be converted into strings for serialization purposes, but comparing the IDs as strings is probably not an optimal task.
 
-In iOS 11, Apple allowed Core Data entites to have a new type of attribute: UUID. According to [this Stack Overflow answer](https://stackoverflow.com/a/45685319), the UUID will be stored as a binary when that entity is saved with Core Data, which is more optimal than using strings for storage. This can be used to give your data objects a unique identity when needed.
+In iOS 11, Apple allowed Core Data entities to have a new type of attribute: UUID. According to [this Stack Overflow answer](https://stackoverflow.com/a/45685319), the UUID will be stored as a binary when that entity is saved with Core Data, which is more optimal than using strings for storage. This can be used to give your data objects a unique identity when needed.
 
 If you needed to fetch an object (or objects) from Core Data based off a UUID, this can now be done using [`NSPredicate`](http://nshipster.com/nspredicate/) objects, but you have to cast the UUID as `CVarArg` in order for the predicate code to work.
 
