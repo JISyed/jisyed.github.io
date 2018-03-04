@@ -10,9 +10,9 @@ share: false
 comments: false
 ---
 
-Jibran I. Syed (a.k.a. Jishenaz) is a coder who specialized in game development.
+Jibran I. Syed (a.k.a. Jishenaz) is a coder who is specializing in game and mobile development.
 
-He works with gameplay code, game engine technology, sometimes mobile development, and on rare occasions: art. More than art, he loves the emerging interections between art and technology.
+He works with gameplay code, game engine technology, sometimes mobile development, and on rare occasions: art. More than art, he loves the emerging interactions between art and technology.
 
 From time to time, Jibran will share his projects here, along with ideas, and something random once in a while.
 
