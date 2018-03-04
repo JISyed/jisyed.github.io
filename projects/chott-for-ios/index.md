@@ -7,7 +7,7 @@ image:
 do-show-start-date: true
 do-show-end-date: true
 start-date: 2018-02-20
-end-date: 2018-03-01
+end-date: 2018-03-02
 modified:
 domain: Code
 project-type: iOS App
@@ -43,15 +43,12 @@ Icons used in the app are available from the [Material Design](https://material.
 
 ## Downloads
 
-**Coming soon to the App Store!**
-
-<!--
 <div markdown="0">
-   <a href="https://itunes.apple.com/us/app/minapps-alarm-clock/id1328048131" target="_blank">
+   <a href="https://itunes.apple.com/us/app/chott-hobby-time-tracking/id1355028450" target="_blank">
         <img src="/_images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download_on_the_App_Store_Badge" style="margin-bottom: 20px"/>
    </a>
 </div>
--->
+
 
  <div markdown="0">
     <a href="https://github.com/JISyed/CHOTT-iOS-App" class="btn">
