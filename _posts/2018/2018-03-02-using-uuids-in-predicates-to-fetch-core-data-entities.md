@@ -9,7 +9,6 @@ tags: [iOS, App, Xcode, Swift, Core Data, NSPredicate]
 description:
 comments: false
 share: true
-
 ---
 
 Usually, when you want an object in code to have a unique ID, a practical solution would be to use something like a GUID (or in Apple's SDKs: a UUID). These IDs can be converted into strings for serialization purposes, but comparing the IDs as strings is probably not an optimal task.
