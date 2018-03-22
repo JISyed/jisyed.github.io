@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "XboxCtrlrInput"
 description:
 image:
@@ -11,8 +10,6 @@ end-date:
 modified: 2016-12-21
 domain: Code
 project-type: 3rd Party Unity3D Library
-share: true
-comments: false
 ---
 
 <figure>

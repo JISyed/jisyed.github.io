@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Reveal"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2012-11-11
 modified: 2016-12-21
 domain: Game-Dev
 project-type: College Team Project
-share: true
-comments: false
 ---
 
 <figure>

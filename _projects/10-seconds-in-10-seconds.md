@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "10 Seconds In 10 Seconds"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2013-08-27
 modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
-share: true
-comments: false
 ---
 
 ## About

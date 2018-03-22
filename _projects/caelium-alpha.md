@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Caelium Alpha"
 description: 
 image:
@@ -13,8 +12,6 @@ end-date:
 modified: 
 domain: Game-Dev
 project-type: Game Jam
-share: true
-comments: false
 ---
 
 <figure>

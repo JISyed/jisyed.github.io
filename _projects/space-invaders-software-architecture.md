@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Space Invaders Software Architecture"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2015-03-16
 modified:
 domain: Game-Dev
 project-type: Grad School Project
-share: true
-comments: false
 ---
 
 ## About

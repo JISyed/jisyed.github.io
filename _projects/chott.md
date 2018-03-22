@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Chott"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2015-11-24
 modified:
 domain: Code
 project-type: Android App
-share: true
-comments: false
 ---
 
 ## About

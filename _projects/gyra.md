@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Gyra"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2015-12-14
 modified: 2017-11-19
 domain: Game-Dev
 project-type: Game Jam
-share: true
-comments: false
 ---
 
 <figure>

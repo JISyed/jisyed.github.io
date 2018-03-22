@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Procedutex"
 description:
 image:
@@ -13,8 +12,6 @@ end-date: 2016-03-16
 modified:
 domain: Code
 project-type: C++ Library
-share: true
-comments: false
 ---
 
 ## About

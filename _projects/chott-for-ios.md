@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Chott for iOS"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2018-03-02
 modified:
 domain: Code
 project-type: Time Tracker for iOS
-share: true
-comments: false
 ---
 
 ## About

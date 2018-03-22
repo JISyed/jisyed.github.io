@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "The Other Sky"
 description:
 image:
@@ -11,8 +10,6 @@ end-date: 2014-08-25
 modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
-share: true
-comments: false
 ---
 
 ## About

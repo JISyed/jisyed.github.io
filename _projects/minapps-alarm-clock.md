@@ -1,5 +1,4 @@
 ---
-layout: project
 title: "Minapps Alarm Clock"
 description:
 image:
@@ -13,8 +12,6 @@ end-date: 2017-12-22
 modified:
 domain: Code
 project-type: iOS App
-share: true
-comments: false
 ---
 
 ## About

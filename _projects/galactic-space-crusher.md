@@ -1,5 +1,4 @@
 ---
-layout: project
 title: Galactic Space Crusher
 image:
   feature: /project-images/galactic-space-crusher/gsc_screen1.png
@@ -11,8 +10,6 @@ end-date: 2015-08-01
 modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
-share: true
-comments: false
 ---
 
 ## Story
