@@ -7,20 +7,27 @@
 {% include head.html %}
 </head>
 
-<body id="post" {% if page.image.feature %}class="feature"{% endif %}>
+<body id="post" class="feature">
 
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 {% include scroll-up-btn.html %}
 
-{% if page.image.feature %}
+{% assign proj = site.projects | where: 'title', page.project | first %}
+
 <div class="entry-header">
   {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
   <div class="entry-image">
+    {% if page.image.feature %}
     <img src="{{ site.url }}/_images/{{ page.image.feature }}" alt="{{ page.title }}">
+    {% else %}
+        {% if proj %}
+        <img src="{{ site.url }}/_images/{{ proj.image.feature }}" alt="Project Image Not Found">
+        {% endif %}
+        {% comment %}TODO: Provide a domain image if project image is not avaliable{% endcomment %}
+    {% endif %}
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
-{% endif %}
 
 <div id="main" role="main">
   <article class="hentry">
@@ -38,7 +45,7 @@
         </h2>
         {% endif %}
         {% if page.project %}
-        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" class="kiroku-domain-text-regular-{% if page.project-domain %}{{page.project-domain}}{% else %}{{ page.domain }}{% endif %}" style="text-decoration: underline;">{{ page.project }}</a></h2>
+        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" class="kiroku-domain-text-regular-{{ proj.domain }}" style="text-decoration: underline;">{{ page.project }}</a></h2>
         {% endif %}
         {% if site.reading_time %}
         <p class="entry-reading-time">
