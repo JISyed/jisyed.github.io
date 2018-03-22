@@ -65,7 +65,7 @@ These desired features are not listed in any particular order, and are only up f
  - Rename planets, stars, and moons
  - Pause planetary movements
 
-Once again, I thank everyone who played the game and gave feedback. If you want to follow further development, you can either follow me on [Twitter](https://twitter.com/Jishenaz), follow the game on [Itch.io](https://jishenaz.itch.io/caelium-alpha), or bookmark [Caelium Alpha's project page on this blog]({{ site.baseurl }}{% link projects/caelium-alpha/index.md %}).
+Once again, I thank everyone who played the game and gave feedback. If you want to follow further development, you can either follow me on [Twitter](https://twitter.com/Jishenaz), follow the game on [Itch.io](https://jishenaz.itch.io/caelium-alpha), or bookmark [Caelium Alpha's project page on this blog]({{ site.baseurl }}{% link projects-old/caelium-alpha/index.md %}).
 
 <figure>
 	<a href="/_images/project-images/caelium-alpha/caeliumScreen8.png" target="_blank">

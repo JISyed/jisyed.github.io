@@ -11,7 +11,7 @@ url-without-scheme: jisyed.github.io
 owner:
   name:           Jibran Syed
   avatar:         aboutLogo.png
-  bio:            "Game Developer with an interest in technology, art, and where they intersect. Multipotentialite wannabe."
+  bio:            "Software Developer with an interest in technology, art, and where they intersect."
   email:          jibranisyed@outlook.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        Jishenaz
@@ -62,6 +62,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+collections:
+  projects:
+    output: true
 
 include:
   - .htaccess
