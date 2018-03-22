@@ -15,6 +15,8 @@ share: true
 comments: false
 ---
 
+# AVAVAVAVAVAVAVAVAVAVAV
+
 ## About
 
 At DePaul University, there is a grad-level class where you learn software architecture by remaking the famous game Space Invaders, with design patterns! It was among the harder courses in the game programming curriculum.

@@ -15,6 +15,8 @@ share: true
 comments: false
 ---
 
+# AVAVAVAVAVAVAVAVAVAVAV
+
 ## About
 
 10 Seconds In 10 Seconds was the result of my first Ludum Dare competition and first game jam creation. The core functionality of the game was made in about 48 hours. As such, my aim was to keep the game simple, both in features an also in art-style. The theme was “10 seconds”.
