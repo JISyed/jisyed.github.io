@@ -36,7 +36,7 @@ image:
               {% endif %}
               {% if post.project %}
               <div class="">
-                  Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects-old/{{ post.project | slugify }}" class="kiroku-domain-text-regular-{% if post.project-domain %}{{post.project-domain}}{% else %}{{ post.domain }}{% endif %}" style="text-decoration: underline;">{{ post.project }}</a>
+                  Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ post.project | slugify }}" class="kiroku-domain-text-regular-{% if post.project-domain %}{{post.project-domain}}{% else %}{{ post.domain }}{% endif %}" style="text-decoration: underline;">{{ post.project }}</a>
               </div>
               {% endif %}
           </div>

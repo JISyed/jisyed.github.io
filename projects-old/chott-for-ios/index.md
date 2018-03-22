@@ -21,7 +21,7 @@ comments: false
 
 Chott stands for "Creative Hobby Occurrence Time Tracker".
 
-This is actually an iOS remake of the [original Chott app for Android]({{ site.baseurl }}{% link projects-old/chott/index.md %}). Chott is a time tracking app specifically designed for personal creative hobbies in mind. A creative hobby is a hobby where you make something. There are 4 categories: Code, Art, Music, and Writing.
+This is actually an iOS remake of the [original Chott app for Android]({{ site.baseurl }}{% link _projects/chott.md %}). Chott is a time tracking app specifically designed for personal creative hobbies in mind. A creative hobby is a hobby where you make something. There are 4 categories: Code, Art, Music, and Writing.
 
 Now being powered by iOS technologies, Chott for iOS has more features than the original Android version, like deleting projects you don't want anymore. The app is written in Swift 4 and uses newer Core Data features like UUID attributes. Because of this, Chott for iOS can only run on iPhones running iOS 11 or newer.
 

@@ -19,4 +19,4 @@ share: true
 
 One of the hardest classes in grad school was a class where you make Space Invaders. You would think that would be easy, but it was actually very difficult (although rewarding in the end). From basically nothing (other than a barebones OpenGL graphics API written for C#), students were to recreate the famous game Space Invaders.
 
-You can read more about that at the [project's page]({{ site.baseurl }}{% link projects-old/space-invaders-software-architecture/index.md %}), and get the source code from there too (Windows only).
+You can read more about that at the [project's page]({{ site.baseurl }}{% link _projects/space-invaders-software-architecture.md %}), and get the source code from there too (Windows only).

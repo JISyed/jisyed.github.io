@@ -127,7 +127,7 @@ I am a grad school graduate seeking employment to grow as a developer and help s
 
  - **Game Architecture**  
    *DePaul University*  
-   Made [space invaders]({{ site.baseurl }}{% link projects-old/space-invaders-software-architecture/index.md %}) with design patterns, including command, strategy, state, observer, etc.
+   Made [space invaders]({{ site.baseurl }}{% link _projects/space-invaders-software-architecture.md %}) with design patterns, including command, strategy, state, observer, etc.
 
  - **Multithreading**  
    *DePaul University*  
@@ -135,11 +135,11 @@ I am a grad school graduate seeking employment to grow as a developer and help s
 
  - **Android Development**  
    *DePaul University*  
-   Learned Android API and IDE, and made a [simple app]({{ site.baseurl }}{% link projects-old/chott/index.md %}) for tracking time spent on creative hobbies
+   Learned Android API and IDE, and made a [simple app]({{ site.baseurl }}{% link _projects/chott.md %}) for tracking time spent on creative hobbies
 
  - **Game Engine I, II, & III**  
    *DePaul University*  
-   Made an [OpenGL-powered game engine]({{ site.baseurl }}{% link projects-old/lge/index.md %}) for Windows that includes a skinned animation system
+   Made an [OpenGL-powered game engine]({{ site.baseurl }}{% link _projects/lge.md %}) for Windows that includes a skinned animation system
 
  - **China Study Abroad -- Shanghai & Beijing -- August 2016**  
    *DePaul University*  
@@ -155,39 +155,39 @@ C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3
 
 ## Featured Projects
 
- - [**Minapps Alarm Clock**]({{ site.baseurl }}{% link projects-old/minapps-alarm-clock/index.md %})  
+ - [**Minapps Alarm Clock**]({{ site.baseurl }}{% link _projects/minapps-alarm-clock.md %})  
    Bedside alarm clock app for iOS  
    *Made using Swift 4, Xcode, Cocoa Touch, and Core Data*
 
- - [**Chott for iOS**]({{ site.baseurl }}{% link projects-old/chott-for-ios/index.md %})  
-   Remake of [Chott]({{ site.baseurl }}{% link projects-old/chott/index.md %}) time tracking app for iOS 11+  
+ - [**Chott for iOS**]({{ site.baseurl }}{% link _projects/chott-for-ios.md %})  
+   Remake of [Chott]({{ site.baseurl }}{% link _projects/chott.md %}) time tracking app for iOS 11+  
    *Made using Swift 4, Xcode, Cocoa Touch, and Core Data*
 
- - [**Caelium Alpha**]({{ site.baseurl }}{% link projects-old/caelium-alpha/index.md %})  
+ - [**Caelium Alpha**]({{ site.baseurl }}{% link _projects/caelium-alpha.md %})  
    Digital Orrery Sandbox Game for Ludum Dare Game Jam  
    *Made using C# and Unity3D*
 
- - [**Gyra**]({{ site.baseurl }}{% link projects-old/gyra/index.md %})  
+ - [**Gyra**]({{ site.baseurl }}{% link _projects/gyra.md %})  
    Quick Arcade Game - Now on the [App Store](https://itunes.apple.com/us/app/gyra-ludum-dare-34-game/id1311941156)  
    *Made using C#, Unity3D, and Xcode*
 
- - [**Procedutex**]({{ site.baseurl }}{% link projects-old/procedutex/index.md %})  
+ - [**Procedutex**]({{ site.baseurl }}{% link _projects/procedutex.md %})  
    Procedural Texture Library for Windows  
    *Made using C++, OpenGL, and Visual Studios*
 
- - [**Sea2D**]({{ site.baseurl }}{% link projects-old/sea2d/index.md %})  
+ - [**Sea2D**]({{ site.baseurl }}{% link _projects/sea2d.md %})  
    2D Game Sprite Engine for macOS  
    *Made using C++, OpenGL, YAML, and Xcode*
 
- - [**LGE**]({{ site.baseurl }}{% link projects-old/lge/index.md %})  
+ - [**LGE**]({{ site.baseurl }}{% link _projects/lge.md %})  
    3D Graphics Engine for Windows  
    *Made using C++, OpenGL, YAML, and Visual Studios*
 
- - [**Chott for Android**]({{ site.baseurl }}{% link projects-old/chott/index.md %})  
+ - [**Chott for Android**]({{ site.baseurl }}{% link _projects/chott.md %})  
    Time Tracking App for Android  
    *Made using Java, Android Studio, and JSON*
 
- - [**XboxCtrlrInput**]({{ site.baseurl }}{% link projects-old/xboxctrlrinput/index.md %})  
+ - [**XboxCtrlrInput**]({{ site.baseurl }}{% link _projects/xboxctrlrinput.md %})  
    Input Library for Unity3D  
    *Made using C#, Unity3D, and XInput.NET*
 

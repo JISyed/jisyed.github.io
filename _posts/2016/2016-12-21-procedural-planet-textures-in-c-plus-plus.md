@@ -23,4 +23,4 @@ Another thing I think is cool is outer space, especially planets. The best of bo
 
 That app inspired me to try to make procedurally generated planets. I found an opportunity to do so as a grad school research project. The result is the library Procedutex, which can procedurally generate textures of many kinds, although I mostly used it to demonstrate planetary textures.
 
-You can read more about it at the [project's page]({{ site.baseurl }}{% link projects-old/procedutex/index.md %}), or you can [get the source directly from GitHub](https://github.com/JISyed/Procedutex) (code is Windows only).
+You can read more about it at the [project's page]({{ site.baseurl }}{% link _projects/procedutex.md %}), or you can [get the source directly from GitHub](https://github.com/JISyed/Procedutex) (code is Windows only).

@@ -15,9 +15,9 @@ share: true
 
 I'm glad to announce that Chott is now available on the App Store!
 
-In case you didn't know, Chott is a time tracking app aiming specifically for tracking personal creative projects. I made a [prototypical version of this for Android]({{ site.baseurl }}{% link projects-old/chott/index.md %}) before, but this version has more features, like deleting projects and sessions.
+In case you didn't know, Chott is a time tracking app aiming specifically for tracking personal creative projects. I made a [prototypical version of this for Android]({{ site.baseurl }}{% link _projects/chott.md %}) before, but this version has more features, like deleting projects and sessions.
 
-For more information about Chott for iOS, you can check out [its project page here]({{ site.baseurl }}{% link projects-old/chott-for-ios/index.md %}). Or you can click the black button below to get the app. It's free!
+For more information about Chott for iOS, you can check out [its project page here]({{ site.baseurl }}{% link _projects/chott-for-ios.md %}). Or you can click the black button below to get the app. It's free!
 
 <div markdown="0">
    <a href="https://itunes.apple.com/us/app/chott-hobby-time-tracking/id1355028450" target="_blank">
