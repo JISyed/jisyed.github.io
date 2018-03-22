@@ -43,8 +43,4 @@ The project was written using at least Xcode 7.3 or greater on macOS 10.11.
 
 ## Screenshot
 
-<figure>
-    <a href="/_images/project-images/sea2d/sea2d_demo.png" target="_blank">
-	   <img src="/_images/project-images/sea2d/sea2d_demo.png" alt="">
-    </a>
-</figure>
+{% include oneimage path="/_images/project-images/sea2d/sea2d_demo.png" alttext="missingImg" is_static=false %}

@@ -12,9 +12,7 @@ domain: Game-Dev
 project-type: College Team Project
 ---
 
-<figure>
-	<img src="/_images/project-images/reveal/revealTitle.png" alt="">
-</figure>
+{% include oneimage path="/_images/project-images/reveal/revealTitle.png" alttext="missingImg" is_static=true %}
 
 ## About
 

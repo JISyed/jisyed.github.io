@@ -1,0 +1,9 @@
+{% assign path = include.path %}
+{% assign alttext = include.alttext %}
+{% assign is_static = include.is_static %}
+
+<figure>
+	{% if is_static != true %}<a href="{{ path }}" target="_blank">{% endif %}
+		<img src="{{ path }}" alt="{{ alttext }}">
+	{% if is_static != true %}</a>{% endif %}
+</figure>

@@ -12,11 +12,7 @@ domain: Game-Dev
 project-type: Game Jam
 ---
 
-<figure>
-    <a href="/_images/project-images/gyra/gyrapreview.gif" target="_blank">
-    	<img src="/_images/project-images/gyra/gyrapreview.gif" alt="">
-    </a>
-</figure>
+{% include oneimage path="/_images/project-images/gyra/gyrapreview.gif" alttext="missingImg" is_static=false %}
 
 ## About
 

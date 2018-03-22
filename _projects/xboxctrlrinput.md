@@ -12,9 +12,7 @@ domain: Code
 project-type: 3rd Party Unity3D Library
 ---
 
-<figure>
-	<img src="/_images/project-images/xci/xboxctrlr.png" alt="">
-</figure>
+{% include oneimage path="/_images/project-images/xci/xboxctrlr.png" alttext="" is_static=true %}
 
 ## About
 

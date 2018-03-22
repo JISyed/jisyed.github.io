@@ -14,11 +14,7 @@ domain: Game-Dev
 project-type: Game Jam
 ---
 
-<figure>
-	<a href="/_images/project-images/caelium-alpha/caeliumBanner.png" target="_blank">
-		<img src="/_images/project-images/caelium-alpha/caeliumBanner.png" alt="">
-	</a>
-</figure>
+{% include oneimage path="/_images/project-images/caelium-alpha/caeliumBanner.png" alttext="missingImg" is_static=true %}
 
 ## About
 
