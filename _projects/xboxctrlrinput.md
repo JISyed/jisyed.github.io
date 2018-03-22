@@ -7,7 +7,7 @@ do-show-start-date: true
 do-show-end-date: false
 start-date: 2013-08-30
 end-date:
-modified: 2016-12-21
+modified: 
 domain: Code
 project-type: 3rd Party Unity3D Library
 ---
@@ -30,14 +30,6 @@ The project is hosted on Github and I invite anyone to help contribute. It’s f
 
 ## Downloads
 
-<div markdown="0">
-    <a href="https://github.com/JISyed/Unity-XboxCtrlrInput/releases" class="btn">
-        {% include faicon icocode="external-link" size="lg" %} Latest Unity Package on GitHub
-    </a>
-</div>
+{% include button url="https://github.com/JISyed/Unity-XboxCtrlrInput/releases" label="Latest Unity Package on GitHub" type="" icocode="external-link" %}
 
-<div markdown="0">
-    <a href="https://github.com/JISyed/Unity-XboxCtrlrInput" class="btn">
-        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-    </a>
-</div>
+{% include button url="https://github.com/JISyed/Unity-XboxCtrlrInput" label="Source Code on GitHub" type="" icocode="github" %}

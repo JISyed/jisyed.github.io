@@ -34,29 +34,13 @@ LGE stands for "Little Game Engine" (couldn't think of a better name).
 
 ## Downloads
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/LGE-Game-Engine" class="btn">
-        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/LGE-Game-Engine" label="Source Code on GitHub" type="" icocode="github" %}
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_FBX_Converter.pdf" class="btn">
-        {% include faicon icocode="file-pdf-o" size="lg" %} Download FBX Converter Paper (PDF)
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_FBX_Converter.pdf" label="Download FBX Converter Paper (PDF)" type="" icocode="file-pdf-o" %}
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_GPU_Animation.pdf" class="btn">
-        {% include faicon icocode="file-pdf-o" size="lg" %} Download GPU Animation Paper (PDF)
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_GPU_Animation.pdf" label="Download GPU Animation Paper (PDF)" type="" icocode="file-pdf-o" %}
 
-  <div markdown="0">
-    <a href="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_YAML_Serialzation.pdf" class="btn">
-        {% include faicon icocode="file-pdf-o" size="lg" %} Download YAML Serialization Slides (PDF)
-    </a>
-  </div>
+{% include button url="https://github.com/JISyed/LGE-Game-Engine/raw/master/LGE_YAML_Serialzation.pdf" label="Download YAML Serialization Slides (PDF)" type="" icocode="file-pdf-o" %}
 
 
 ## Screenshots

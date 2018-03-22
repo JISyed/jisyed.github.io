@@ -40,17 +40,9 @@ The web version was exported with Unity 5.2 HTML5 exporter. If something isn't w
     </a>
  </div>
 
- <div markdown="0">
-    <a href="https://jishenaz.itch.io/gyra" class="btn" target="_blank">
-        {% include faicon icocode="external-link" size="lg" %} Desktop Downloads on Itch.io
-    </a>
- </div>
+{% include button url="https://jishenaz.itch.io/gyra" label="Desktop Downloads on Itch.io" type="" icocode="external-link" %}
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/GyraTheGame" class="btn" target="_blank">
-        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/GyraTheGame" label="Source Code on GitHub" type="" icocode="github" %}
 
 
 ## Trailer

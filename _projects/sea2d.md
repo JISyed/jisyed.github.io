@@ -34,17 +34,9 @@ Sea2D is a 2D Game Sprite Engine written in C++ for macOS. Sea2D stands for "Spr
 
 ## Downloads
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/Sea2D" class="btn">
-        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/Sea2D" label="Source Code on GitHub" type="" icocode="github" %}
 
- <div markdown="0">
-    <a href="https://github.com/JISyed/Sea2D/raw/master/Sea2D_Overview.pdf" class="btn">
-        {% include faicon icocode="file-pdf-o" size="lg" %} Download Sea2D Paper (PDF)
-    </a>
- </div>
+{% include button url="https://github.com/JISyed/Sea2D/raw/master/Sea2D_Overview.pdf" label="Download Sea2D Paper (PDF)" type="" icocode="file-pdf-o" %}
 
 The project was written using at least Xcode 7.3 or greater on macOS 10.11.
 

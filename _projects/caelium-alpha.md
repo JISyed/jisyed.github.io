@@ -53,18 +53,9 @@ There are 2 editions of Caelium Alpha: *LD38 Edition* and *Post-LD Edition*. *LD
 
 ## Downloads
 
- <div markdown="0">
-     <a href="https://jishenaz.itch.io/caelium-alpha" class="btn">
-         {% include faicon icocode="external-link" size="lg" %} Post-LD Edition on Itch.io
-     </a>
- </div>
- <div markdown="0">
-     <a href="https://ldjam.com/events/ludum-dare/38/caelium-alpha/" class="btn">
-         {% include faicon icocode="external-link" size="lg" %} Info and Ratings on Ludum Dare
-     </a>
- </div>
+ {% include button url="https://jishenaz.itch.io/caelium-alpha" label="Post-LD Edition on Itch.io" type="" icocode="external-link" %}
 
-
+ {% include button url="https://ldjam.com/events/ludum-dare/38/caelium-alpha/" label="Info and Ratings on Ludum Dare" type="" icocode="external-link" %}
 
 ## Screenshots 
  {% capture screenshots %}

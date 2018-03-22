@@ -45,13 +45,8 @@ Icons used in the app are available from the [Material Design](https://material.
         <img src="/_images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download_on_the_App_Store_Badge" style="margin-bottom: 20px"/>
    </a>
 </div>
-
-
- <div markdown="0">
-    <a href="https://github.com/JISyed/CHOTT-iOS-App" class="btn">
-        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-    </a>
- </div>
+ 
+{% include button url="https://github.com/JISyed/CHOTT-iOS-App" label="Source Code on GitHub" type="" icocode="github" %}
 
 
 ## Screenshots

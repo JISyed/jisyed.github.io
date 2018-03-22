@@ -17,21 +17,13 @@ project-type: Game Jam
 10 Seconds In 10 Seconds was the result of my first Ludum Dare competition and first game jam creation. The core functionality of the game was made in about 48 hours. As such, my aim was to keep the game simple, both in features an also in art-style. The theme was “10 seconds”.
 
 The premise of the game is a duel, so basically defeat your opponent. It’s set in an 3D abstract arena with controls similar to Asteroids. You can say even the characters are sort of inspired from Asteroids. The twist with this duel is that you switch back and forth between offense and defense every 10 seconds. In offense mode, you attack your opponent as much as possible. In defense mode, you defend yourself from your opponent. There are also 10 spirits hovering around you and if you collect relics, they will “second” you in your duel. Being seconded 10 times lets the spirits grant you a special ability for 10 seconds.
-
- <div markdown="0">
-    <a href="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" class="btn btn-info">
-        {% include faicon icocode="external-link" size="lg" %} Read Postmortem
-    </a>
- </div>
+ 
+ {% include button url="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" label="Read Postmortem" type="info" icocode="external-link" %}
 
 
 ## Download
 
-<div markdown="0">
-    <a href="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" class="btn">
-        {% include faicon icocode="external-link" size="lg" %} Downloads on Ludum Dare
-    </a>
-</div>
+ {% include button url="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" label="Downloads on Ludum Dare" type="" icocode="external-link" %}
 
 
 ## Screenshots

@@ -49,12 +49,7 @@ project-type: iOS App
    </a>
 </div>
 
-<div markdown="0">
-   <a href="https://github.com/JISyed/Minapps-Alarm-Clock" class="btn" target="_blank">
-       {% include faicon icocode="github" size="lg" %} Source Code on GitHub
-   </a>
-</div>
-
+{% include button url="https://github.com/JISyed/Minapps-Alarm-Clock" label="Source Code on GitHub" type="" icocode="github" %}
 
 ## Screenshots
 

@@ -33,11 +33,7 @@ The idea of the game is that you navigate in a surreal world where you flip grav
 
 ## Download
 
-<div markdown="0">
-    <a href="http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&uid=26581" class="btn">
-        {% include faicon icocode="external-link" size="lg" %} Downloads from Ludum Dare
-    </a>
-</div>
+{% include button url="http://www.ludumdare.com/compo/ludum-dare-30/?action=preview&uid=26581" label="Downloads from Ludum Dare" type="" icocode="external-link" %}
 
 
 ## Screenshots

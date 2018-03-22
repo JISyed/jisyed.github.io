@@ -30,12 +30,7 @@ You are tasked with crushing space pirates with your monstrous battleship, calle
 
 ## Download
 
-<div markdown="0">
-    <a href="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=26581" class="btn">
-        {% include faicon icocode="external-link" size="lg" %} Downloads on Ludum Dare
-    </a>
-</div>
-
+{% include button url="http://ludumdare.com/compo/ludum-dare-33/?action=preview&uid=26581" label="Downloads on Ludum Dare" type="" icocode="external-link" %}
 
 ## Credits
 

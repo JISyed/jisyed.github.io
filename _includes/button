@@ -1,0 +1,15 @@
+<!-- icocodes can be searched here: https://fontawesome.com/v4.7.0/icons/ -->
+<!-- types are: "success", "warning", "danger", and "info" -->
+
+{% assign url = include.url %}
+{% assign label = include.label %}
+{% assign type = include.type %}
+{% assign icocode = include.icocode %}
+
+
+
+<div markdown="0">
+   <a href="{{ url }}" class="btn btn-{{ type }}">
+       {% if icocode != "" %}<i class="fa fa-lg fa-{{ icocode }}" aria-hidden="true"></i>{% endif %} {{ label }}
+   </a>
+</div>
