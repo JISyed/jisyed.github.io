@@ -61,8 +61,8 @@
 
 
 <article class="hentry">
-    <div class="entry-content">
-      <h2>Posts for project "{{ page.title }}"</h2>
+    <div class="entry-content {% if page.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ page.domain }} {% endif %}">
+      <h2>{{ page.title }} Blog Posts</h2>
       {% assign posts_exist = false %}
       {% for post in site.posts %}
           {% if post.project == page.title %}
