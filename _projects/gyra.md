@@ -42,13 +42,13 @@ The web version was exported with Unity 5.2 HTML5 exporter. If something isn't w
 
  <div markdown="0">
     <a href="https://jishenaz.itch.io/gyra" class="btn" target="_blank">
-        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Desktop Downloads on Itch.io
+        {% include faicon icocode="external-link" size="lg" %} Desktop Downloads on Itch.io
     </a>
  </div>
 
  <div markdown="0">
     <a href="https://github.com/JISyed/GyraTheGame" class="btn" target="_blank">
-        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
     </a>
  </div>
 

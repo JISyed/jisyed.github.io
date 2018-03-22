@@ -1,0 +1,8 @@
+<!-- icocodes can be searched here: https://fontawesome.com/v4.7.0/icons/ -->
+<!-- sizes are: lg, 2x, 3x, 4x, and 5x -->
+
+{% assign icocode = include.icocode %}
+{% assign size = include.size %}
+
+
+<i class="fa fa-{{ size }} fa-{{ icocode }}" aria-hidden="true"></i>

@@ -49,7 +49,7 @@ Icons used in the app are available from the [Material Design](https://material.
 
  <div markdown="0">
     <a href="https://github.com/JISyed/CHOTT-iOS-App" class="btn">
-        <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+        {% include faicon icocode="github" size="lg" %} Source Code on GitHub
     </a>
  </div>
 

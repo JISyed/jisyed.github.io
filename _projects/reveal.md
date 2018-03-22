@@ -37,7 +37,7 @@ Here are the team members:
 
 <div markdown="0">
     <a href="http://revealthegame.wordpress.com/download/" class="btn">
-        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Download from Reveal site
+        {% include faicon icocode="external-link" size="lg" %} Download from Reveal site
     </a>
 </div>
 

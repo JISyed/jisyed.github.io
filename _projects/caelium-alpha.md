@@ -55,12 +55,12 @@ There are 2 editions of Caelium Alpha: *LD38 Edition* and *Post-LD Edition*. *LD
 
  <div markdown="0">
      <a href="https://jishenaz.itch.io/caelium-alpha" class="btn">
-         <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Post-LD Edition on Itch.io
+         {% include faicon icocode="external-link" size="lg" %} Post-LD Edition on Itch.io
      </a>
  </div>
  <div markdown="0">
      <a href="https://ldjam.com/events/ludum-dare/38/caelium-alpha/" class="btn">
-         <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Info and Ratings on Ludum Dare
+         {% include faicon icocode="external-link" size="lg" %} Info and Ratings on Ludum Dare
      </a>
  </div>
 

@@ -20,7 +20,7 @@ The premise of the game is a duel, so basically defeat your opponent. It’s set
 
  <div markdown="0">
     <a href="https://jibransyed.wordpress.com/2013/08/28/ludum-dare-27-postmortem/" class="btn btn-info">
-        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Read Postmortem
+        {% include faicon icocode="external-link" size="lg" %} Read Postmortem
     </a>
  </div>
 
@@ -29,7 +29,7 @@ The premise of the game is a duel, so basically defeat your opponent. It’s set
 
 <div markdown="0">
     <a href="http://www.ludumdare.com/compo/ludum-dare-27/?action=preview&uid=26581" class="btn">
-        <i class="fa fa-lg fa-external-link" aria-hidden="true"></i> Downloads on Ludum Dare
+        {% include faicon icocode="external-link" size="lg" %} Downloads on Ludum Dare
     </a>
 </div>
 

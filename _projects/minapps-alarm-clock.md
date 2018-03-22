@@ -51,7 +51,7 @@ project-type: iOS App
 
 <div markdown="0">
    <a href="https://github.com/JISyed/Minapps-Alarm-Clock" class="btn" target="_blank">
-       <i class="fa fa-lg fa-github" aria-hidden="true"></i> Source Code on GitHub
+       {% include faicon icocode="github" size="lg" %} Source Code on GitHub
    </a>
 </div>
 
