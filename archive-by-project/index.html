@@ -79,7 +79,12 @@ image:
         {% for post in site.posts %}
             {% if post.title != null and post.project and post.project == project_list[item] %}
               {% assign posts_exist = true %}
-              <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+              <li class="entry-title" style="padding-bottom: 2pt;">
+                  <p class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.domain }}" style="width: 85pt; text-align: center;">
+                      <a href="{{ site.url }}/archive-by-domain/#{{ post.domain }}">{% include domainicon domain=post.domain %}{{ post.domain }}</a>
+                  </p>
+                  &ensp;<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+              </li>
             {% endif %}
         {% endfor %}
     		</ul>
