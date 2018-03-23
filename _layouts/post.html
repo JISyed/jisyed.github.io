@@ -23,6 +23,8 @@
     {% else %}
         {% if proj %}
         <img src="{{ site.url }}/_images/{{ proj.image.feature }}" alt="Project Image Not Found">
+        {% else %}
+        <img src="{{ site.url }}/_images/domain-banners/DomBkg_{{ page.domain }}.png" alt="Domain Image Not Found">
         {% endif %}
         {% comment %}TODO: Provide a domain image if project image is not avaliable{% endcomment %}
     {% endif %}
