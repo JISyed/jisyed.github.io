@@ -6,9 +6,9 @@ date: 2016-12-23 09:39
 modified:
 description: "Resume of Jibran Syed"
 image:
-  feature: /blog-header-img.png
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
+  feature: /resume-header-img.jpeg
+  credit: Markus Petritz
+  creditlink: https://unsplash.com/photos/-LFe6Prglw4
 share: false
 comments: false
 reading_time: false
