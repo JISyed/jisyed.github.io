@@ -39,7 +39,7 @@
         {% endif %}
         {% if page.domain %}
         <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
-            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{{ page.domain }}</a>
+            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{% include domainicon domain=page.domain %}{{ page.domain }}</a>
         </h2>
         {% endif %}
         {% if page.project-type %}

@@ -31,7 +31,7 @@ image:
           <div class="kiroku-entry-meta-right-block-text">
               {% if post.domain %}
               <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.domain }}">
-                  <a href="{{ site.url }}/archive-by-domain/#{{ post.domain }}">{{ post.domain }}</a>
+                  <a href="{{ site.url }}/archive-by-domain/#{{ post.domain }}">{% include domainicon domain=post.domain %}{{ post.domain }}</a>
               </div>
               {% endif %}
               {% if post.project %}

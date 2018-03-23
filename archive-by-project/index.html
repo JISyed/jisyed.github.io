@@ -65,7 +65,7 @@ image:
                 <div class="kiroku-entry-meta-right-block-text">
                     {% if curr_posts_domain %}
                     <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ curr_posts_domain }}">
-                        <a href="{{ site.url }}/archive-by-domain/#{{ curr_posts_domain }}">{{ curr_posts_domain }}</a>
+                        <a href="{{ site.url }}/archive-by-domain/#{{ curr_posts_domain }}">{% include domainicon domain=curr_posts_domain %}{{ curr_posts_domain }}</a>
                     </div>
                     {% endif %}
                 </div>
