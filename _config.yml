@@ -53,6 +53,7 @@ permalink:   /blog/:year/:title/
 
 # Amount of post to show on home page
 paginate: 20
+excerpt_separator: <!--more-->
 
 kramdown:
   input: GFM

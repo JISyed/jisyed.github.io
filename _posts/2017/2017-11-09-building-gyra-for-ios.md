@@ -23,6 +23,8 @@ I only needed to do a few tweaks to Gyra before it would be ready for submission
 
 I provided app icons and splash screens for Unity's Player Settings, but long story short, there are some issues with stretching and quality of icons and splashes (using Unity 2017.2 at the moment).
 
+<!--more-->
+
 #### Fixing App Icons
 
 For starters, to make a bunch of images that an iOS app icon requires, I made a single 1024x1024px image. Then I uploaded it a nice web app called [MakeAppIcon](https://makeappicon.com/) which helps you generate all of the necessary scaled images needed for an iOS app icon. I downloaded the generated zip of images and put them into the Unity project. In Player Settings, you can override game icon for iOS (and Android if you want), and I placed the different icon sizes into the different image slots.

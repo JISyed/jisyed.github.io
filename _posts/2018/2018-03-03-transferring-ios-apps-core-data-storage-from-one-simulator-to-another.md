@@ -33,6 +33,8 @@ For this demonstration, I have Core Data entities saved into an iPhone 8 Plus Si
 
 Here's how to transfer the Core Data storage from one Simulator into another:
 
+<!--more-->
+
  - On your Mac, go to `~/Library/Developer/CoreSimulator/Devices/` with Finder.
  - You will see a heck of a mess of folders with random IDs as names. These folders represent all the different Simulators that Apple installed on your computer. Be sure to sort the files by `Date Modified`, otherwise it will be a nightmare to look for the right device.
 

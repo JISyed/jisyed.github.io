@@ -39,6 +39,8 @@ I really appreciate all the people who played the game and gave feedback! The fe
  - *(In the Post-LD Version)* My implementation of auto-padding between planets allow planets to change size or have additional moons without other planets colliding them.
  - *(In the Post-LD Version)* Being able to use a musical piece from [Stephen Tanksley](https://soundcloud.com/stephen-tanksley). Adds nice atmosphere to the game!
 
+<!--more-->
+
 #### <i class="fa fa-times-circle" aria-hidden="true"></i> What Went Badly
 
  - Towards the end of the jam, I encountered a weird bug where multiple planets would spawn the more you add planets. This bug was fixed because someone told me that I could fix important bugs after the jam. The bug was caused by a prefab referencing itself, which is apparently a big no-no in Unity; I wrote [a blog post]({{ site.baseurl }}{% link _posts/2017/2017-04-27-never-self-reference-prefabs-in-unity.md %}) explaining this problem in depth.
