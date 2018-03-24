@@ -195,4 +195,4 @@ C++, C#, Swift, Java, Visual Studios, Xcode, Cocoa Touch, Android Studio, Unity3
 
 ## Interests
 
-Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Theology,  East Asian Cultures
+Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Spirituality,  East Asian Cultures

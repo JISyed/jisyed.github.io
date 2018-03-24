@@ -26,7 +26,6 @@
         {% else %}
         <img src="{{ site.url }}/_images/domain-banners/DomBkg_{{ page.domain }}.png" alt="Domain Image Not Found">
         {% endif %}
-        {% comment %}TODO: Provide a domain image if project image is not avaliable{% endcomment %}
     {% endif %}
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
@@ -42,18 +41,18 @@
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
         {% if page.domain %}
-        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
-            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{% include domainicon domain=page.domain %}{{ page.domain }}</a>
-        </h2>
+            <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
+                <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{% include domainicon domain=page.domain %}{{ page.domain }}</a>
+            </h2>
         {% endif %}
-        {% if page.project %}
-        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" class="kiroku-domain-text-regular-{{ proj.domain }}" style="text-decoration: underline;">{{ page.project }}</a></h2>
+        {% if proj %}
+            <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ proj.title | slugify }}" class="kiroku-domain-text-regular-{{ proj.domain }}" style="text-decoration: underline;">{{ proj.title }}</a></h2>
         {% endif %}
         {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          {% include read-time.html %}
-        </p><!-- /.entry-reading-time -->
+            <p class="entry-reading-time">
+              <i class="fa fa-clock-o"></i>
+              {% include read-time.html %}
+            </p><!-- /.entry-reading-time -->
         {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
