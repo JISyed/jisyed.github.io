@@ -4,7 +4,9 @@ title: Tag Archive
 description: "An archive of posts sorted by tag."
 comments: false
 image:
-  feature: /blog-header-img.png
+  feature: /archive-header-img.jpg
+  credit: jesse orrico
+  creditlink: https://unsplash.com/photos/h6xNSDlgciU
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
