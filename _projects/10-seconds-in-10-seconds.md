@@ -3,9 +3,9 @@ title: "10 Seconds In 10 Seconds"
 description:
 image:
   feature: /project-images/10-seconds/10sec1.png
-do-show-start-date: true
+do-show-start-date: false
 do-show-end-date: true
-start-date:
+start-date: 2013-08-23
 end-date: 2013-08-27
 modified: 2016-12-21
 domain: Game-Dev
