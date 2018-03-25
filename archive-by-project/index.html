@@ -7,85 +7,62 @@ image:
   feature: /blog-header-img.png
 ---
 
-<!-- Conjure up a list of all projects recorded in this blog -->
-{% assign old_project_list = site.posts | map: "project" | compact | uniq %}
-{% assign project_list = "" %}
-{% for an_item in (0..old_project_list.size) %}
-<!-- This insanity was needed to remove a nil project that kept popping up -->
-    {% if old_project_list[an_item] == nil %}
-        {% continue %}
-    {% endif %}
-    {% assign project_list = project_list | append: old_project_list[an_item] %}
-    {% unless forloop.last %}
-        {% assign project_list = project_list | append: "," %}
-    {% endunless %}
-{% endfor %}
-{% assign project_list = project_list | split: "," %}
-<!-- Account for projects that have no posts -->
-{% assign project_page_list = site.pages | where: "layout","project" %}
-{% assign extra_project_list = project_page_list | map: "title" %}
-{% for a_project in extra_project_list %}
-    {% assign project_list = project_list | push: a_project %}
-{% endfor %}
-{% assign project_list = project_list | uniq %}
-
-
 <ul class="entry-meta inline-list">
-  {% for item in (0..project_list.size) %}{% unless forloop.last %}
-    {% capture this_word %}{{ project_list[item] | strip_newlines }}{% endcapture %}
+  <!-- For every project, look at every post if its project matches, and increment the tally -->
+  {% for project in site.projects %}
     {% assign posts_per_project = 0 %}
-        {% for a_post in site.posts %}
-            {% if a_post.project and a_post.project == project_list[item] %}
-                {% assign posts_per_project = posts_per_project | plus: 1 %}
-                {% capture curr_posts_domain %}{{ a_post.project-domain }}{% endcapture %}
-                {% if curr_posts_domain == "" %}
-                    {% capture curr_posts_domain %}{{ a_post.domain }}{% endcapture %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-  	    <li><a href="#{{ this_word }}" class="tag kiroku-domain-bubble-{{ curr_posts_domain }}"><span class="term">{{ this_word }}</span> <span class="count">{{ posts_per_project }}</span></a></li>
-  {% endunless %}{% endfor %}
+    {% for post in site.posts %}
+        {% if post.project and post.project == project.title %}
+            {% assign posts_per_project = posts_per_project | plus: 1 %}
+        {% endif %}
+    {% endfor %}
+	<li><a href="#{{ project.title }}" class="tag kiroku-domain-bubble-{{ project.domain }}"><span class="term">{{ project.title }}</span> <span class="count">{{ posts_per_project }}</span></a></li>
+  {% endfor %}
 </ul>
 
-{% for item in (0..project_list.size) %}
-  {% unless forloop.last %}
-  {% capture this_word %}{{ project_list[item] | strip_newlines }}{% endcapture %}
-  {% for a_post in site.posts %}
-      {% if a_post.project and a_post.project == project_list[item] %}
-          {% capture curr_posts_domain %}{{ a_post.project-domain }}{% endcapture %}
-          {% if curr_posts_domain == "" %}
-              {% capture curr_posts_domain %}{{ a_post.domain }}{% endcapture %}
-          {% endif %}
-      {% endif %}
-  {% endfor %}
-	<article class="entry-content {% if curr_posts_domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ curr_posts_domain }} {% endif %}">
+{% for project in site.projects %}
+	<article class="entry-content {% if project.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ project.domain }} {% endif %}">
+        {% if project.image.feature %}
+          <div class="entry-image-index" style="max-height: 380px; overflow: hidden; display: flex; align-items: center;">
+            <img src="{{ site.url }}/_images/{{ project.image.feature }}" alt="{{ project.title }}" style="width: 200%;"></img>
+          </div><!-- /.entry-image -->
+        {% endif %}
         <div class="entry-meta kiroku-entry-meta-block">
-            <div class="kiroku-entry-meta-half-block"></div>
+            <div class="kiroku-entry-meta-half-block">
+                {% if project.do-show-start-date %}
+                    <h4>{{ project.start-date | date: "%B %Y" }}{% if project.end-date %} — {{ project.end-date | date: "%B %Y" }}{% elsif project.do-show-end-date %} and Ongoing{% endif %}</h4>
+                {% elsif project.do-show-end-date %}
+                    <h4>{{ project.end-date | date: "%B %Y" }}</h4>
+                {% endif %}
+            </div>
             <div class="kiroku-entry-meta-half-block">
                 <div class="kiroku-entry-meta-right-block-text">
-                    {% if curr_posts_domain %}
-                    <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ curr_posts_domain }}">
-                        <a href="{{ site.url }}/archive-by-domain/#{{ curr_posts_domain }}">{{ curr_posts_domain }}</a>
+                    <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ project.domain }}">
+                        <a href="{{ site.url }}/archive-by-domain/#{{ project.domain }}">{% include domainicon domain=project.domain %}{{ project.domain }}</a>
                     </div>
-                    {% endif %}
                 </div>
             </div>
         </div>
-        <h2 id="{{ this_word }}" class="tag-heading">
-            <a href="{{ site.url }}/projects/{{ project_list[item] | slugify }}">{{ this_word }}</a>
+        <h2 id="{{ project.title }}" class="tag-heading" style="margin-bottom: 0px;">
+            <a href="{{ site.url }}/projects/{{ project.title | slugify }}">{{ project.title }}</a>
         </h2>
-    		<ul>
-        {% assign posts_exist = false %}
-        {% for post in site.posts %}
-            {% if post.title != null and post.project and post.project == project_list[item] %}
-              {% assign posts_exist = true %}
-              <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-            {% endif %}
-        {% endfor %}
-    		</ul>
+        <h4 style="margin-top: 0px;">{{ project.description }}</h4>
+		<ul>
+            {% assign posts_exist = false %}
+            {% for post in site.posts %}
+                {% if post.title != nil and post.project and post.project == project.title %}
+                  {% assign posts_exist = true %}
+                  <li class="entry-title" style="padding-bottom: 2pt;">
+                      <p class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.domain }}" style="width: 85pt; text-align: center;">
+                          <a href="{{ site.url }}/archive-by-domain/#{{ post.domain }}">{% include domainicon domain=post.domain %}{{ post.domain }}</a>
+                      </p>
+                      &ensp;<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li>
+                {% endif %}
+            {% endfor %}
+		</ul>
         {% if posts_exist == false %}
             <p class="">There are no posts for this project.</p>
         {% endif %}
 	</article><!-- /.hentry -->
-  {% endunless %}
 {% endfor %}

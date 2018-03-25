@@ -2,7 +2,7 @@
 layout: page
 title: About Jibran Syed
 image:
-  feature: /blog-header-img.png
+  feature: /about-header-img.png
   #credit: Drew Hays
   #creditlink: https://unsplash.com/drew_hays
 description: "About Jibran Syed"

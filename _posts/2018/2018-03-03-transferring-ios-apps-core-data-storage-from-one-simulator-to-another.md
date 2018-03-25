@@ -27,11 +27,13 @@ To be able to do this, a few assumptions are made:
  - You opened your app in another Simulator and made *at least 1 piece of data* that's saved.
      - This is important, because if your Core Data app has no data, it won't have the folders you need to drag the database files into!
 
-For this demonstration, I have Core Data entities saved into an iPhone 8 Plus Simulator and I want to transfer them to an iPhone SE Simulator. The app being used for demonstration is called "[Chott]({{ site.baseurl }}{% link projects/chott-for-ios/index.md %})".
+For this demonstration, I have Core Data entities saved into an iPhone 8 Plus Simulator and I want to transfer them to an iPhone SE Simulator. The app being used for demonstration is called "[Chott]({{ site.baseurl }}{% link _projects/chott-for-ios.md %})".
 
 [![Screen_Shot_2018-03-03_at_8.13.08_PM.png](https://s13.postimg.org/u3g2p4dfr/Screen_Shot_2018-03-03_at_8.13.08_PM.png)](https://postimg.org/image/soei0eccj/)
 
 Here's how to transfer the Core Data storage from one Simulator into another:
+
+<!--more-->
 
  - On your Mac, go to `~/Library/Developer/CoreSimulator/Devices/` with Finder.
  - You will see a heck of a mess of folders with random IDs as names. These folders represent all the different Simulators that Apple installed on your computer. Be sure to sort the files by `Date Modified`, otherwise it will be a nightmare to look for the right device.
@@ -53,4 +55,3 @@ Here's how to transfer the Core Data storage from one Simulator into another:
  And that's that! Now your data is ready to go on another Simulator. Great for Core Data testing on multiple Simulators.
 
  [![Screen_Shot_2018-03-03_at_8.59.22_PM.png](https://s13.postimg.org/isi0eqglj/Screen_Shot_2018-03-03_at_8.59.22_PM.png)](https://postimg.org/image/613u886tf/)
-

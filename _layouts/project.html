@@ -27,6 +27,9 @@
     <header class="header-title">
       <div class="header-title-wrap">
         <h1 class="entry-title"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        {% if page.project-type %}
+            <h2><span class="entry-date date published">Type:&nbsp;&nbsp; {{ page.project-type }}</span></h2>
+        {% endif %}
         {% if page.do-show-start-date and page.start-date %}
         <h2><span class="entry-date date published">Started:&nbsp; <time datetime="{{ page.start-date | date_to_xmlschema }}">{{ page.start-date | date: "%B %Y" }}</time></span></h2>
         {% endif %}
@@ -38,12 +41,12 @@
             {% endif %}
         {% endif %}
         {% if page.domain %}
-        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
-            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{{ page.domain }}</a>
-        </h2>
+            <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
+                <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{% include domainicon domain=page.domain %}{{ page.domain }}</a>
+            </h2>
         {% endif %}
-        {% if page.project-type %}
-        <h2><span class="entry-date date published">Type:&nbsp;&nbsp; {{ page.project-type }}</span></h2>
+        {% if page.description %}
+            <h2><span class="entry-date date published">{{ page.description }}</span></h2>
         {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
@@ -61,8 +64,8 @@
 
 
 <article class="hentry">
-    <div class="entry-content">
-      <h2>Posts for project "{{ page.title }}"</h2>
+    <div class="entry-content {% if page.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ page.domain }} {% endif %}">
+      <h2>{{ page.title }} Blog Posts</h2>
       {% assign posts_exist = false %}
       {% for post in site.posts %}
           {% if post.project == page.title %}

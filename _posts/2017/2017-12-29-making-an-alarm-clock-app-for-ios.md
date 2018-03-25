@@ -19,7 +19,7 @@ After learning iOS development from Devslopes, I figured that I should start mak
 
 I already use an alarm clock app, so I utilized it as a reference to make this new app. I wanted a dimmable clock face that works on different orientations and different screen sizes. The idea was to make an alarm clock app that can also serve as a bedside clock (which is what I do at the moment).
 
-I call this app [**Minapps Alarm Clock**]({{ site.baseurl }}{% link projects/minapps-alarm-clock/index.md %}). The "Minapps" is just short for "minimal apps", because I wanted it to be relatively simple in functionality. If I make more simple apps, I intend to attach the "Minapps" name to them.
+I call this app [**Minapps Alarm Clock**]({{ site.baseurl }}{% link _projects/minapps-alarm-clock.md %}). The "Minapps" is just short for "minimal apps", because I wanted it to be relatively simple in functionality. If I make more simple apps, I intend to attach the "Minapps" name to them.
 
 I'm a little surprised how long it took to develop this alarm clock (about two weeks), but I fortunately learned some new nuances of iOS development. Here's a list of skills I gained from making this app:
 
@@ -39,12 +39,3 @@ I'm happy to say that *Minapps Alarm Clock* is available on the App Store.
 </div>
 
 If there are any bugs, [open a new Github issue here](https://github.com/JISyed/Minapps-Alarm-Clock/issues).
-
-
-
-
-
-
-
-
-

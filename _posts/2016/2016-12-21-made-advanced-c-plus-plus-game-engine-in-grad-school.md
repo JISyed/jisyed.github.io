@@ -25,4 +25,4 @@ Let's just say it wasn't a walk in the park.
 
 But it's definitely the most advanced code I've written yet. It may be useable for a simple animated game (although LGE doesn't have an audio system).
 
-You can learn more about the LGE game engine at the [project's page]({{ site.baseurl }}{% link projects/lge/index.md %}), or [download the code from GitHub](https://github.com/JISyed/LGE-Game-Engine).
+You can learn more about the LGE game engine at the [project's page]({{ site.baseurl }}{% link _projects/lge.md %}), or [download the code from GitHub](https://github.com/JISyed/LGE-Game-Engine).

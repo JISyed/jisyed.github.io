@@ -4,7 +4,7 @@ title: Domain Archive
 description: "An archive of posts by domain."
 comments: false
 image:
-  feature: /blog-header-img.png
+  feature: /domain-header-img.png
 ---
 
 {% assign old_domain_list = site.posts | map: "domain" | compact | uniq %}
@@ -31,7 +31,7 @@ image:
                 {% assign posts_per_domain = posts_per_domain | plus: 1 %}
             {% endif %}
         {% endfor %}
-  	    <li><a href="#{{ this_word }}" class="tag kiroku-domain-bubble-{{ domain_list[item] }}"><span class="term">{{ this_word }}</span> <span class="count">{{ posts_per_domain }}</span></a></li>
+  	    <li><a href="#{{ this_word }}" class="tag kiroku-domain-bubble-{{ domain_list[item] }}"><span class="term">{% include domainicon domain=this_word %} {{ this_word }}</span> <span class="count">{{ posts_per_domain }}</span></a></li>
   {% endunless %}{% endfor %}
 </ul>
 
@@ -39,11 +39,22 @@ image:
   {% unless forloop.last %}
   {% capture this_word %}{{ domain_list[item] | strip_newlines }}{% endcapture %}
 	<article class="entry-content {% if this_word %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ this_word }} kiroku-domain-background-{{ this_word }} {% endif %}">
-	<h2 id="{{ this_word }}" class="tag-heading {% if this_word %} kiroku-domain-text-dark-{{ this_word }} {% endif %}">{{ this_word }}</h2>
+	<h2 id="{{ this_word }}" class="tag-heading {% if this_word %} kiroku-domain-text-dark-{{ this_word }} {% endif %}">{% include domainicon domain=this_word %} {{ this_word }}</h2>
 		<ul>
     {% for post in site.posts %}
         {% if post.title != null and post.domain and post.domain == domain_list[item] %}
-          <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+          <li class="entry-title" style="padding-bottom: 2pt;">
+              {% if post.project-domain != nil %}
+              <p class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.project-domain }}">
+                  <a href="{{ site.url }}/projects/{{ post.project | slugify }}">{{ post.project }}</a>
+              </p>&ensp;
+              {% elsif post.project != nil %}
+              <p class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ post.domain }}">
+                  <a href="{{ site.url }}/projects/{{ post.project | slugify }}">{{ post.project }}</a>
+              </p>&ensp;
+              {% endif %}
+              <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+          </li>
         {% endif %}
     {% endfor %}
 		</ul>

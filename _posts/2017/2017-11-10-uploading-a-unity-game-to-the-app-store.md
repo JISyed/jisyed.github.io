@@ -25,6 +25,8 @@ This guide presumes that you already exported your game to iOS from Unity's Buil
 
 Certificates are used by Apple to sign your app, thus identifying you as the developer. Certificates are tied to a computer and there are multiple kinds (like for development and for distribution). The following procedure is for getting a certificate to submit to the App Store:
 
+<!--more-->
+
  - Login to your Apple Developer account and go to **Certificates, Identifiers & Profiles**.
  - Press the <i class="fa fa-plus" aria-hidden="true"></i> button on the top right corner.
 
@@ -154,5 +156,3 @@ Apple will send you an email when they have finished processing your uploaded ap
  - After you have filled out everything, click **Submit for Review** towards the top of the submission page. Apple will soon review the app for approval.
 
 If Apple emails you saying they they approve of your app, it may still take about a day for it to actually show up on the App Store.
-
-

@@ -15,7 +15,7 @@ share: true
 
 I'm glad to announce that Gyra is now available on the App Store! I personally tested iOS builds on an iPhone 6 and an iPad Pro 9.7" with no problems.
 
-If you are new here, you can read more about Gyra [here]({{ site.baseurl }}{% link projects/gyra/index.md %}) and try desktop versions of the game for Windows, macOS, and Linux.
+If you are new here, you can read more about Gyra [here]({{ site.baseurl }}{% link _projects/gyra.md %}) and try desktop versions of the game for Windows, macOS, and Linux.
 
 This is officially my first game *(or app for that matter)* on the App Store, so it certainly feels like an achievement to see one of my works on such a notable platform. Gyra is available for free, and also free of ads and in-app purchases, so please try it out.
 

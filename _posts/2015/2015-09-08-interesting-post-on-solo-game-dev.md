@@ -3,7 +3,7 @@ layout: post
 date: 2015-09-08
 title: Interesting Article about Solo Game Dev
 description: "Link to HobbyGameDev"
-domain:
+domain: Game-Dev
 project:
 tags: [Link]
 comments: false

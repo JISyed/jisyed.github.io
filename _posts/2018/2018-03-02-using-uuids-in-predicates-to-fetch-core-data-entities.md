@@ -7,6 +7,10 @@ domain: Code
 project: Chott for iOS
 tags: [iOS, App, Xcode, Swift, Core Data, NSPredicate]
 description:
+#image:
+  #feature: /blog-header-img.png
+  #credit: Drew Hays
+  #creditlink: https://unsplash.com/drew_hays
 comments: false
 share: true
 ---

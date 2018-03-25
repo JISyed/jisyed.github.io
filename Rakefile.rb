@@ -7,7 +7,7 @@ require "fileutils"
 
 public_dir      = "public"    # compiled site directory
 posts_dir       = "_posts"    # directory for blog files
-projects_dir    = "projects"  # directory for projects
+projects_dir    = "_projects"  # directory for projects
 new_post_ext    = "md"  # default new post file extension when using the new_post task
 new_page_ext    = "md"  # default new page file extension when using the new_page task
 new_project_ext = "md"  # default new project file extension when using the new_project task
@@ -49,8 +49,8 @@ task :new_post, :title do |t, args|
     post.puts "description: "
     post.puts "#image:"
     post.puts "  #feature: /blog-header-img.png"
-    post.puts "  #credit: Drew Hays"
-    post.puts "  #creditlink: https://unsplash.com/drew_hays"
+    post.puts "  #credit: Random Phorographer Guy"
+    post.puts "  #creditlink: https://unsplash.com/username"
     post.puts "comments: false"
     post.puts "share: true"
     post.puts "---"
@@ -90,8 +90,8 @@ task :new_page, :title do |t, args|
     page.puts "description: "
     page.puts "#image:"
     page.puts "  #feature: /blog-header-img.png"
-    page.puts "  #credit: Drew Hays"
-    page.puts "  #creditlink: https://unsplash.com/drew_hays"
+    page.puts "  #credit: Random Photographer Guy"
+    page.puts "  #creditlink: https://unsplash.com/username"
     page.puts "share: false"
     page.puts "comments: false"
     page.puts "---"
@@ -108,27 +108,24 @@ task :new_project, :title do |t, args|
     title = get_stdin("Enter a title for your project: ")
   end
   domain_meta = get_stdin("Enter the project's domain (Art, Audio, Code, Game-Dev, Writing, or Linguistics): ")
-  filename = "#{projects_dir}/#{title.to_url}/index.#{new_project_ext}"
+  filename = "#{projects_dir}/#{title.to_url}.#{new_project_ext}"
   if File.exist?(filename)
-    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite? ", ['y', 'n']) == 'n'
+    abort("New project not created!") if ask("#{filename} already exists. Do you want to overwrite? ", ['y', 'n']) == 'n'
   end
-  starting_date = get_stdin("Enter the starting date of the project (if any) [YYYY-MM-DD]: ")
+  starting_date = get_stdin("Enter the starting date of the project (optional, but recommended) [YYYY-MM-DD]: ")
   ending_date = get_stdin("Enter the ending date of the project (if any) [YYYY-MM-DD]: ")
   type_meta = get_stdin("Enter the type of project (if any) (can be anything relevant): ")
-  dirname = File.dirname(filename)
-  unless File.directory?(dirname)
-    FileUtils.mkdir_p(dirname)
-  end
+  short_desc = get_stdin("Enter a short description of the project (optional, but recommended): ")
+  
   puts "Creating new project: #{filename}"
   open(filename, 'w') do |project|
     project.puts "---"
-    project.puts "layout: project"
     project.puts "title: \"#{title}\""
-    project.puts "description: "
+    project.puts "description: \"#{short_desc}\""
     project.puts "#image:"
     project.puts "  #feature: /project-images/project-name/image.png"
-    project.puts "  #credit: Drew Hays"
-    project.puts "  #creditlink: https://unsplash.com/drew_hays"
+    project.puts "  #credit: Random Photographer Guy"
+    project.puts "  #creditlink: https://unsplash.com/username"
     project.puts "do-show-start-date: true"
     project.puts "do-show-end-date: true"
     project.puts "start-date: #{starting_date}"
@@ -136,8 +133,6 @@ task :new_project, :title do |t, args|
     project.puts "modified: "
     project.puts "domain: #{domain_meta}"
     project.puts "project-type: #{type_meta}"
-    project.puts "share: true"
-    project.puts "comments: false"
     project.puts "---"
   end
 end

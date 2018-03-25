@@ -7,20 +7,28 @@
 {% include head.html %}
 </head>
 
-<body id="post" {% if page.image.feature %}class="feature"{% endif %}>
+<body id="post" class="feature">
 
 {% include browser-upgrade.html %}
 {% include navigation.html %}
 {% include scroll-up-btn.html %}
 
-{% if page.image.feature %}
+{% assign proj = site.projects | where: 'title', page.project | first %}
+
 <div class="entry-header">
   {% if page.image.credit %}<div class="image-credit">Image source: {% if page.image.creditlink %}<a href="{{ page.image.creditlink }}">{% endif %}{{ page.image.credit }}{% if page.image.creditlink %}</a>{% endif %}</div><!-- /.image-credit -->{% endif %}
   <div class="entry-image">
+    {% if page.image.feature %}
     <img src="{{ site.url }}/_images/{{ page.image.feature }}" alt="{{ page.title }}">
+    {% else %}
+        {% if proj %}
+        <img src="{{ site.url }}/_images/{{ proj.image.feature }}" alt="Project Image Not Found">
+        {% else %}
+        <img src="{{ site.url }}/_images/domain-banners/DomBkg_{{ page.domain }}.png" alt="Domain Image Not Found">
+        {% endif %}
+    {% endif %}
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
-{% endif %}
 
 <div id="main" role="main">
   <article class="hentry">
@@ -33,18 +41,18 @@
         {% endif %}
         <h2><span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></span></h2>
         {% if page.domain %}
-        <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
-            <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{{ page.domain }}</a>
-        </h2>
+            <h2 class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ page.domain }}">
+                <a href="{{ site.url }}/archive-by-domain/#{{ page.domain }}">{% include domainicon domain=page.domain %}{{ page.domain }}</a>
+            </h2>
         {% endif %}
-        {% if page.project %}
-        <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ page.project | slugify }}" class="kiroku-domain-text-regular-{% if page.project-domain %}{{page.project-domain}}{% else %}{{ page.domain }}{% endif %}" style="text-decoration: underline;">{{ page.project }}</a></h2>
+        {% if proj %}
+            <h2>Project:&nbsp;&nbsp; <a href="{{ site.url }}/projects/{{ proj.title | slugify }}" class="kiroku-domain-text-regular-{{ proj.domain }}" style="text-decoration: underline;">{{ proj.title }}</a></h2>
         {% endif %}
         {% if site.reading_time %}
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          {% include read-time.html %}
-        </p><!-- /.entry-reading-time -->
+            <p class="entry-reading-time">
+              <i class="fa fa-clock-o"></i>
+              {% include read-time.html %}
+            </p><!-- /.entry-reading-time -->
         {% endif %}
       </div><!-- /.header-title-wrap -->
     </header>
