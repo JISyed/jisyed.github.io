@@ -1,6 +1,6 @@
 ---
 title: "The Other Sky"
-description:
+description: "A game about flipping the world upside down and back"
 image:
   feature: /project-images/the-other-sky/tos2.png
 do-show-start-date: true

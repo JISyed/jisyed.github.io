@@ -2,7 +2,7 @@
 title: Galactic Space Crusher
 image:
   feature: /project-images/galactic-space-crusher/gsc_screen1.png
-description: "About the game Galactic Space Crusher"
+description: "A game jam entry about using a monstrous battleship"
 do-show-start-date: false
 do-show-end-date: true
 start-date:

@@ -37,10 +37,11 @@ image:
                 </div>
             </div>
         </div>
-        <h2 id="{{ project.title }}" class="tag-heading">
+        <h2 id="{{ project.title }}" class="tag-heading" style="margin-bottom: 0px;">
             <a href="{{ site.url }}/projects/{{ project.title | slugify }}">{{ project.title }}</a>
         </h2>
-    		<ul>
+        <h4 style="margin-top: 0px;">{{ project.description }}</h4>
+		<ul>
             {% assign posts_exist = false %}
             {% for post in site.posts %}
                 {% if post.title != nil and post.project and post.project == project.title %}
@@ -53,9 +54,9 @@ image:
                   </li>
                 {% endif %}
             {% endfor %}
-    		</ul>
-            {% if posts_exist == false %}
-                <p class="">There are no posts for this project.</p>
-            {% endif %}
+		</ul>
+        {% if posts_exist == false %}
+            <p class="">There are no posts for this project.</p>
+        {% endif %}
 	</article><!-- /.hentry -->
 {% endfor %}

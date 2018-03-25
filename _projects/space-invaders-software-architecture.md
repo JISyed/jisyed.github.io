@@ -1,6 +1,6 @@
 ---
 title: "Space Invaders Software Architecture"
-description:
+description: "Space Invaders, rewritten with design patterns"
 image:
   feature: /project-images/space-invaders-arch/si_gameplay.png
 do-show-start-date: true

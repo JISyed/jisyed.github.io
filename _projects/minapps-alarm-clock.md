@@ -1,6 +1,6 @@
 ---
 title: "Minapps Alarm Clock"
-description:
+description: "An alarm clock app for iOS"
 image:
   feature: /project-images/minapps-alarm-clock/alarmClockBanner.png
   #credit: Drew Hays

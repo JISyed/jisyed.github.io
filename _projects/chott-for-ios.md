@@ -1,6 +1,6 @@
 ---
 title: "Chott for iOS"
-description: Creative Hobby Timer Tracker for iOS
+description: "Creative hobby timer tracker for iOS"
 image:
   feature: /project-images/chott-for-ios/chott_ios_banner.png
 do-show-start-date: true

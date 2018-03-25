@@ -1,6 +1,6 @@
 ---
 title: "Reveal"
-description:
+description: "Team-lead student game about navigating in the dark"
 image:
   feature: /project-images/reveal/revealscreengrab01.png
 do-show-start-date: true

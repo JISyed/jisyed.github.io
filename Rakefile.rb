@@ -115,17 +115,13 @@ task :new_project, :title do |t, args|
   starting_date = get_stdin("Enter the starting date of the project (if any) [YYYY-MM-DD]: ")
   ending_date = get_stdin("Enter the ending date of the project (if any) [YYYY-MM-DD]: ")
   type_meta = get_stdin("Enter the type of project (if any) (can be anything relevant): ")
-  
-  #dirname = File.dirname(filename)
-  #unless File.directory?(dirname)
-#    FileUtils.mkdir_p(dirname)
- # end
+  short_desc = get_stdin("Enter a short description of the project (optional, but recommended): ")
   
   puts "Creating new project: #{filename}"
   open(filename, 'w') do |project|
     project.puts "---"
     project.puts "title: \"#{title}\""
-    project.puts "description: "
+    project.puts "description: \"#{short_desc}\""
     project.puts "#image:"
     project.puts "  #feature: /project-images/project-name/image.png"
     project.puts "  #credit: Random Photographer Guy"

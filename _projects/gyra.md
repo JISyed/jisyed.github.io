@@ -1,6 +1,6 @@
 ---
 title: "Gyra"
-description:
+description: "Defend your energy core!"
 image:
   feature: /project-images/gyra/gyrascreen1.png
 do-show-start-date: true

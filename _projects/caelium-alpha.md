@@ -1,6 +1,6 @@
 ---
 title: "Caelium Alpha"
-description: 
+description: "A solar system sandbox game"
 image:
   feature: /project-images/caelium-alpha/caeliumScreen7.png
   #credit: Drew Hays

@@ -1,6 +1,6 @@
 ---
 title: "Sea2D"
-description:
+description: "2D OpenGL-powered sprite engine for macOS, written in C++"
 image:
   feature: /project-images/sea2d/sea2d_demo.png
 do-show-start-date: true

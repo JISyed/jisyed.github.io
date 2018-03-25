@@ -1,6 +1,6 @@
 ---
 title: "10 Seconds In 10 Seconds"
-description:
+description: "A game where offense and defense swap every 10 seconds"
 image:
   feature: /project-images/10-seconds/10sec1.png
 do-show-start-date: false

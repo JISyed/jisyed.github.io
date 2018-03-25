@@ -1,6 +1,6 @@
 ---
 title: "Chott"
-description:
+description: "A prototypical hobby time tracker for Android"
 image:
   feature: /project-images/chott/chott_banner.png
 do-show-start-date: true

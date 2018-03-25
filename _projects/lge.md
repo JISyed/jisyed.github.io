@@ -1,6 +1,6 @@
 ---
 title: "LGE"
-description:
+description: "3D OpenGL-powered game engine with skinned animation"
 image:
   feature: /project-images/lge/demo2.png
 do-show-start-date: true

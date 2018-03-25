@@ -1,6 +1,6 @@
 ---
 title: "XboxCtrlrInput"
-description:
+description: "A Unity3D library to easily input with Xbox 360 controllers"
 image:
   feature: /project-images/xci/xci1.png
 do-show-start-date: true
