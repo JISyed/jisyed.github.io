@@ -118,33 +118,33 @@ I am a master’s graduate from Chicagoland seeking employment in interactive me
 
 ## Select Courses
 
- - **Optimized C++**  
-   *DePaul University (September to November 2014)*  
-   Learned optimizations in C++, involving padding, const correctness, and alignment, and more.
+- **[iOS 11 Development with Swift 4](https://www.udemy.com/devslopes-ios11/)**  
+*[Udemy](https://www.udemy.com/) (September to November 2017)*  
+Finished learning basics of iOS development by making [several app projects]({{ site.baseurl }}{% link _posts/2017/2017-11-20-learning-ios-development-from-devslopes.md %}). Recieved [Udemy certificate of completion](https://www.udemy.com/certificate/UC-68TLAGBR/). Taught by [Devslopes](https://devslopes.com/).
 
- - **Game Architecture**  
-   *DePaul University (January to March 2015)*  
-   Made [space invaders]({{ site.baseurl }}{% link _projects/space-invaders-software-architecture.md %}) with design patterns, including command, strategy, state, observer, etc.
+- **China Study Abroad -- Shanghai & Beijing**  
+*DePaul University (August 2016)*  
+Visited cultural sites and software companies, in Shanghai & Beijing, to learn about collaboration and outsourcing. Trip lasted about 10 days.
 
- - **Multithreading**  
-   *DePaul University (April to June 2015)*  
-   Learned multithreading primitives in C++11, including mutexes, `lock_guard`'s, and more.
+- **Game Engine I, II, & III**  
+*DePaul University (September 2015 to June 2016)*  
+Made an [OpenGL-powered game engine]({{ site.baseurl }}{% link _projects/lge.md %}) for Windows that includes a skinned animation system.
 
- - **Android Development**  
-   *DePaul University (September to November 2015)*  
-   Learned Android API and IDE, and made a [simple app]({{ site.baseurl }}{% link _projects/chott.md %}) for tracking time spent on creative hobbies.
+- **Android Development**  
+*DePaul University (September to November 2015)*  
+Learned Android API and IDE, and made a [simple app]({{ site.baseurl }}{% link _projects/chott.md %}) for tracking time spent on creative hobbies.
 
- - **Game Engine I, II, & III**  
-   *DePaul University (September 2015 to June 2016)*  
-   Made an [OpenGL-powered game engine]({{ site.baseurl }}{% link _projects/lge.md %}) for Windows that includes a skinned animation system.
+- **Multithreading**  
+*DePaul University (April to June 2015)*  
+Learned multithreading primitives in C++11, including mutexes, `lock_guard`'s, and more.
 
- - **China Study Abroad -- Shanghai & Beijing**  
-   *DePaul University (August 2016)*  
-   Visited cultural sites and software companies, in Shanghai & Beijing, to learn about collaboration and outsourcing. Trip lasted about 10 days.
+- **Game Architecture**  
+*DePaul University (January to March 2015)*  
+Made [space invaders]({{ site.baseurl }}{% link _projects/space-invaders-software-architecture.md %}) with design patterns, including command, strategy, state, observer, etc.
 
- - **[iOS 11 Development with Swift 4](https://www.udemy.com/devslopes-ios11/)**  
-   *[Udemy](https://www.udemy.com/) (September to November 2017)*  
-   Finished learning basics of iOS development by making [several app projects]({{ site.baseurl }}{% link _posts/2017/2017-11-20-learning-ios-development-from-devslopes.md %}). Recieved [Udemy certificate of completion](https://www.udemy.com/certificate/UC-68TLAGBR/). Taught by [Devslopes](https://devslopes.com/).
+- **Optimized C++**  
+*DePaul University (September to November 2014)*  
+Learned optimizations in C++, involving padding, const correctness, and alignment, and more.
 
 <br/>
 
