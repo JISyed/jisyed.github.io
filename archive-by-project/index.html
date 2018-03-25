@@ -22,6 +22,11 @@ image:
 
 {% for project in site.projects %}
 	<article class="entry-content {% if project.domain %} kiroku-domain-entry-ribbon kiroku-domain-ribbon-{{ project.domain }} {% endif %}">
+        {% if project.image.feature %}
+          <div class="entry-image-index" style="max-height: 380px; overflow: hidden; display: flex; align-items: center;">
+            <img src="{{ site.url }}/_images/{{ project.image.feature }}" alt="{{ project.title }}" style="width: 200%;"></img>
+          </div><!-- /.entry-image -->
+        {% endif %}
         <div class="entry-meta kiroku-entry-meta-block">
             <div class="kiroku-entry-meta-half-block"></div>
             <div class="kiroku-entry-meta-half-block">
