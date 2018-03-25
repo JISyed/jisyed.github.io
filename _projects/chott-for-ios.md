@@ -9,7 +9,7 @@ start-date: 2018-02-20
 end-date: 2018-03-02
 modified:
 domain: Code
-project-type: Time Tracker for iOS
+project-type: iOS App
 ---
 
 ## About

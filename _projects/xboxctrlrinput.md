@@ -9,7 +9,7 @@ start-date: 2013-08-30
 end-date:
 modified: 
 domain: Code
-project-type: 3rd Party Unity3D Library
+project-type: Input Library
 ---
 
 {% include oneimage path="/_images/project-images/xci/xboxctrlr.png" alttext="" is_static=true %}
