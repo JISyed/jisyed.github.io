@@ -3,8 +3,6 @@ title: "Minapps Alarm Clock"
 description: "An alarm clock app for iOS"
 image:
   feature: /project-images/minapps-alarm-clock/alarmClockBanner.png
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
 do-show-start-date: false
 do-show-end-date: true
 start-date: 2017-12-08

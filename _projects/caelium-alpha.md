@@ -3,8 +3,6 @@ title: "Caelium Alpha"
 description: "A solar system sandbox game"
 image:
   feature: /project-images/caelium-alpha/caeliumScreen7.png
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
 do-show-start-date: true
 do-show-end-date: false
 start-date: 2017-04-21

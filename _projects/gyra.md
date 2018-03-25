@@ -3,16 +3,16 @@ title: "Gyra"
 description: "Defend your energy core!"
 image:
   feature: /project-images/gyra/gyrascreen1.png
-do-show-start-date: true
+do-show-start-date: false
 do-show-end-date: true
-start-date:
+start-date: 2015-12-11
 end-date: 2015-12-14
 modified: 2017-11-19
 domain: Game-Dev
 project-type: Game Jam
 ---
 
-{% include oneimage path="/_images/project-images/gyra/gyrapreview.gif" alttext="missingImg" is_static=false %}
+{% include oneimage path="/_images/project-images/gyra/gyra_ani_preview.gif" alttext="missingImg" is_static=false %}
 
 ## About
 

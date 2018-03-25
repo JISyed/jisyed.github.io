@@ -3,9 +3,9 @@ title: "The Other Sky"
 description: "A game about flipping the world upside down and back"
 image:
   feature: /project-images/the-other-sky/tos2.png
-do-show-start-date: true
+do-show-start-date: false
 do-show-end-date: true
-start-date:
+start-date: 2014-08-22
 end-date: 2014-08-25
 modified: 2016-12-21
 domain: Game-Dev

@@ -3,8 +3,6 @@ title: "Procedutex"
 description: "2D OO procedutal texture generation library in C++"
 image:
   feature: /project-images/procedutex/test_window.png
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
 do-show-start-date: true
 do-show-end-date: true
 start-date: 2016-01-04

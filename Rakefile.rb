@@ -112,7 +112,7 @@ task :new_project, :title do |t, args|
   if File.exist?(filename)
     abort("New project not created!") if ask("#{filename} already exists. Do you want to overwrite? ", ['y', 'n']) == 'n'
   end
-  starting_date = get_stdin("Enter the starting date of the project (if any) [YYYY-MM-DD]: ")
+  starting_date = get_stdin("Enter the starting date of the project (optional, but recommended) [YYYY-MM-DD]: ")
   ending_date = get_stdin("Enter the ending date of the project (if any) [YYYY-MM-DD]: ")
   type_meta = get_stdin("Enter the type of project (if any) (can be anything relevant): ")
   short_desc = get_stdin("Enter a short description of the project (optional, but recommended): ")

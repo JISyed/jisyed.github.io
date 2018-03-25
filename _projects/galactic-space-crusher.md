@@ -5,8 +5,8 @@ image:
 description: "A game jam entry about using a monstrous battleship"
 do-show-start-date: false
 do-show-end-date: true
-start-date:
-end-date: 2015-08-01
+start-date: 2015-08-21
+end-date: 2015-08-24
 modified: 2016-12-21
 domain: Game-Dev
 project-type: Game Jam
