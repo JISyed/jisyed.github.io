@@ -28,7 +28,13 @@ image:
           </div><!-- /.entry-image -->
         {% endif %}
         <div class="entry-meta kiroku-entry-meta-block">
-            <div class="kiroku-entry-meta-half-block"></div>
+            <div class="kiroku-entry-meta-half-block">
+                {% if project.do-show-start-date %}
+                    <h4>{{ project.start-date | date: "%B %Y" }}{% if project.end-date %} — {{ project.end-date | date: "%B %Y" }}{% elsif project.do-show-end-date %} and Ongoing{% endif %}</h4>
+                {% elsif project.do-show-end-date %}
+                    <h4>{{ project.end-date | date: "%B %Y" }}</h4>
+                {% endif %}
+            </div>
             <div class="kiroku-entry-meta-half-block">
                 <div class="kiroku-entry-meta-right-block-text">
                     <div class="kiroku-meta-domain-bubble kiroku-domain-bubble-{{ project.domain }}">
