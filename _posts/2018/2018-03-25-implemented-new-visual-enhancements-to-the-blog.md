@@ -45,7 +45,7 @@ With the project collection implemented, I refactored how projects were listed i
 
 Now that projects have easy to access metadata, I had the liberty of enhancing the look of the Project Archive by adding a date range, header image, and posts' domains to the project listings. The difference is like night and day. On the left side of the screenshot below is the old Project Archive, and on the right side is the new version:
 
-[![Screen_Shot_2018-03-25_at_12.42.04_PM.png](https://s14.postimg.org/pxsq2mks1/Screen_Shot_2018-03-25_at_12.42.04_PM.png)](https://postimg.org/image/i522anest/)
+[![Screen_Shot_2018-03-25_at_12.42.04_PM.png](https://s14.{{ site.external_link_domains.postimage_com }}/pxsq2mks1/Screen_Shot_2018-03-25_at_12.42.04_PM.png)](https://{{ site.external_link_domains.postimage_com }}/image/i522anest/)
 
 <!--more-->
 
@@ -57,11 +57,11 @@ While I made this visual enhancement, I made other changes including the followi
  - I added a subtle background texture for visual appeal to the blog. The texture was made by Luuk van Baars from [Toptal Designers](https://www.toptal.com/designers/subtlepatterns/shattered/).
  - Blog post pages now use the feature image of their respective projects if a feature image wasn't provided for a post (old version on left and new version on right):
 
- [![Screen_Shot_2018-03-25_at_12.53.40_PM.png](https://s14.postimg.org/jmnim7btt/Screen_Shot_2018-03-25_at_12.53.40_PM.png)](https://postimg.org/image/h5brexrx9/)
+ [![Screen_Shot_2018-03-25_at_12.53.40_PM.png](https://s14.{{ site.external_link_domains.postimage_com }}/jmnim7btt/Screen_Shot_2018-03-25_at_12.53.40_PM.png)](https://{{ site.external_link_domains.postimage_com }}/image/h5brexrx9/)
  
  - Posts that are very long can now be shortened on the home page with a Jekyll `excerpt_separator`. I used `<\!--more-->` (without the backslash). Posts that are shortened have a "Read More" button at the bottom, which will take you to the full post's page (old version on left and new version on right):
 
- [![Screen_Shot_2018-03-25_at_12.12.39_PM.png](https://s14.postimg.org/8bkuxn2c1/Screen_Shot_2018-03-25_at_12.12.39_PM.png)](https://postimg.org/image/vpsu9kk99/)
+ [![Screen_Shot_2018-03-25_at_12.12.39_PM.png](https://s14.{{ site.external_link_domains.postimage_com }}/8bkuxn2c1/Screen_Shot_2018-03-25_at_12.12.39_PM.png)](https://{{ site.external_link_domains.postimage_com }}/image/vpsu9kk99/)
  
  - Different pages on my blog now have different header images (you can go to different archives to see them).
  - I added colored domain labels next to posts listings in the [Yearly Archive]({{ site.baseurl }}{% link archive-by-year/index.html %}) and the [Tag Archive]({{ site.baseurl }}{% link tags/index.html %})

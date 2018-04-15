@@ -55,6 +55,9 @@ permalink:   /blog/:year/:title/
 paginate: 20
 excerpt_separator: <!--more-->
 
+external_link_domains:
+  postimage_com: postimg.cc    # postimg.org was taken down without prior notice
+
 kramdown:
   input: GFM
   auto_ids: true
