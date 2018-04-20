@@ -50,6 +50,13 @@ looking_for_opporunities: true
         </a>
     </div>
 </div>
+<div style="display: flex;">
+    <div markdown="0">
+        <a href="https://stackoverflow.com/story/jisyed" class="btn">
+            <i class="fa fa-lg fa-stack-overflow" aria-hidden="true"></i> &nbsp; Stack Overflow Developer Story
+        </a>
+    </div>
+</div>
 
 
 ----------------------
