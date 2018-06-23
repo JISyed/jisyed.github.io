@@ -1,6 +1,6 @@
 # Menu navigation links
 
-- title: Résumé
-  url: /resume/
+#- title: Résumé
+#  url: /resume/
 - title: Atom/RSS Feed
   url: /feed.xml

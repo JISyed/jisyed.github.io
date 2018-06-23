@@ -12,7 +12,7 @@ image:
 share: false
 comments: false
 reading_time: false
-looking_for_opporunities: true
+looking_for_opporunities: false
 ---
 
 {% if page.looking_for_opporunities %}
@@ -28,7 +28,7 @@ looking_for_opporunities: true
 
 <div style="display: flex;">
     <div markdown="0">
-        <a href="https://linkedin.com/in/{{ site.owner.linkedin }}" class="btn">
+        <a href="https://linkedin.com/in/{{ site.owner.linkedin.name }}" class="btn">
             <i class="fa fa-lg fa-linkedin" aria-hidden="true"></i> &nbsp;View LinkedIn Profile
         </a>
     </div>&nbsp;&nbsp;
@@ -45,7 +45,7 @@ looking_for_opporunities: true
         </a>
     </div>&nbsp;&nbsp;
     <div markdown="0">
-        <a href="https://github.com/{{ site.owner.github }}?tab=repositories" class="btn">
+        <a href="https://github.com/{{ site.owner.github.name }}?tab=repositories" class="btn">
             <i class="fa fa-lg fa-github" aria-hidden="true"></i> &nbsp;View Projects on GitHub
         </a>
     </div>
@@ -72,9 +72,9 @@ looking_for_opporunities: true
 
 [<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;{{ site.owner.email }}](mailto:{{ site.owner.email }})  
 [<i class="fa fa-home" aria-hidden="true"></i> &nbsp;{{ site.url-without-scheme }}]({{ site.url }})  
-[<i class="fa fa-linkedin" aria-hidden="true"></i> &nbsp;{{ site.owner.name }}'s LinkedIn](https://linkedin.com/in/{{ site.owner.linkedin }})  
-[<i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;@{{ site.owner.twitter }}](https://twitter.com/{{ site.owner.twitter }})  
-[<i class="fa fa-github" aria-hidden="true"></i> &nbsp;{{ site.owner.github }} at GitHub](https://github.com/{{ site.owner.github }})  
+[<i class="fa fa-linkedin" aria-hidden="true"></i> &nbsp;{{ site.owner.name }}'s LinkedIn](https://linkedin.com/in/{{ site.owner.linkedin.name }})  
+[<i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;@{{ site.owner.twitter.name }}](https://twitter.com/{{ site.owner.twitter.name }})  
+[<i class="fa fa-github" aria-hidden="true"></i> &nbsp;{{ site.owner.github.name }} at GitHub](https://github.com/{{ site.owner.github.name }})  
 <i class="fa fa-flag" aria-hidden="true"></i> &nbsp;US Citizen  
 <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;Email me for phone number
 
@@ -82,7 +82,7 @@ looking_for_opporunities: true
 
 ## About
 
-I am a master’s graduate from Chicagoland seeking employment in interactive media, mobile, or games. Eager to grow as a developer, help solve problems, and learn. I’m intrigued by software that brings good or joy to people.
+I am a master’s graduate interested in interactive media, mobile, or games. Eager to grow as a developer, help solve problems, and learn. I’m intrigued by software that brings good or joy to people.
 
 <br/>
 

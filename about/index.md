@@ -16,8 +16,6 @@ He works with gameplay code, game engine technology, sometimes mobile developmen
 
 From time to time, Jibran will share his projects here, along with ideas, and something random once in a while.
 
-Expect more developments soon.
-
 
 -----------
 
@@ -36,8 +34,8 @@ Expect more developments soon.
 </div>
 <div style="display: flex;">
     <div markdown="0">
-        <a href="https://twitter.com/{{ site.owner.twitter }}" class="btn">
-            <i class="fa fa-lg fa-twitter" aria-hidden="true"></i> &nbsp;Follow @{{ site.owner.twitter }}
+        <a href="https://twitter.com/{{ site.owner.twitter.name }}" class="btn">
+            <i class="fa fa-lg fa-twitter" aria-hidden="true"></i> &nbsp;Follow @{{ site.owner.twitter.name }}
         </a>
     </div>&nbsp;&nbsp;
     <div markdown="0">

@@ -14,16 +14,33 @@ owner:
   bio:            "Software Developer with an interest in technology, art, and where they intersect."
   email:          jibranisyed@outlook.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        Jishenaz
+  twitter:
+    name:           Jishenaz
+    shouldShow:     true
   facebook:
-  github:         JISyed
+    name:
+    shouldShow:     false
+  github:
+    name:           JISyed
+    shouldShow:     true
   stackexchange:
-  linkedin:       jibranisyed
+    name:
+    shouldShow:     false
+  linkedin:
+    name:           jibranisyed
+    shouldShow:     false
   instagram:
+    name:
+    shouldShow:     false
   flickr:
-  tumblr:         #jishenaz
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    #+JibranSyed
+    name:
+    shouldShow:     false
+  tumblr:
+    name:           jishenaz
+    shouldShow:     false
+  google_plus:  # google plus id, include the '+', eg +mmistakes
+    name:           +JibranSyed
+    shouldShow:     false
 
 # Background image to be tiled on all pages
 background: bkg.png
