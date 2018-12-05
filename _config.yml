@@ -12,7 +12,7 @@ owner:
   name:           Jibran Syed
   avatar:         aboutLogo.png
   bio:            "Software Developer with an interest in technology, art, and where they intersect."
-  email:          jibranisyed@outlook.com
+  email:          jisyed+code@pm.me
   # Social networking links used in footer. Update and remove as you like.
   twitter:
     name:           Jishenaz
@@ -39,7 +39,7 @@ owner:
     name:           jishenaz
     shouldShow:     false
   google_plus:  # google plus id, include the '+', eg +mmistakes
-    name:           +JibranSyed
+    name:           
     shouldShow:     false
 
 # Background image to be tiled on all pages
