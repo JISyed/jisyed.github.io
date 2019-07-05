@@ -17,9 +17,6 @@ owner:
   twitter:
     name:           Jishenaz
     shouldShow:     true
-  facebook:
-    name:
-    shouldShow:     false
   github:
     name:           JISyed
     shouldShow:     true
@@ -37,9 +34,6 @@ owner:
     shouldShow:     false
   tumblr:
     name:           jishenaz
-    shouldShow:     false
-  google_plus:  # google plus id, include the '+', eg +mmistakes
-    name:
     shouldShow:     false
 
 # Background image to be tiled on all pages
@@ -67,7 +61,7 @@ paginate: 20
 excerpt_separator: <!--more-->
 
 external_link_domains:
-  postimage_com: postimg.cc    # postimg.org was taken down without prior notice
+  postimage_com: postimg.cc
 
 kramdown:
   input: GFM
