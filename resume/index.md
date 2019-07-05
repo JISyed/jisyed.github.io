@@ -3,7 +3,7 @@ layout: page
 permalink: /resume/
 title: "Résumé"
 date: 2016-12-23 09:39
-modified:
+modified: 2019-07-05 15:15
 description: "Resume of Jibran Syed"
 image:
   feature: /resume-header-img.jpeg
@@ -39,11 +39,13 @@ looking_for_opporunities: false
     </div>
 </div>
 <div style="display: flex;">
+<!--
     <div markdown="0">
         <a href="https://www.dropbox.com/s/jn5ozpopfrmhen7/JibranSyed_Resume.pdf" class="btn">
             <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download Résumé (PDF)
         </a>
     </div>&nbsp;&nbsp;
+-->
     <div markdown="0">
         <a href="https://github.com/{{ site.owner.github.name }}?tab=repositories" class="btn">
             <i class="fa fa-lg fa-github" aria-hidden="true"></i> &nbsp;View Projects on GitHub
@@ -75,18 +77,24 @@ looking_for_opporunities: false
 [<i class="fa fa-linkedin" aria-hidden="true"></i> &nbsp;{{ site.owner.name }}'s LinkedIn](https://linkedin.com/in/{{ site.owner.linkedin.name }})  
 [<i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;@{{ site.owner.twitter.name }}](https://twitter.com/{{ site.owner.twitter.name }})  
 [<i class="fa fa-github" aria-hidden="true"></i> &nbsp;{{ site.owner.github.name }} at GitHub](https://github.com/{{ site.owner.github.name }})  
-<i class="fa fa-flag" aria-hidden="true"></i> &nbsp;US Citizen  
 <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;Email me for phone number
 
 <br/>
 
 ## About
 
-I am a master’s graduate interested in interactive media, mobile, or games. Eager to grow as a developer, help solve problems, and learn. I’m intrigued by software that brings good or joy to people.
+I am a master’s graduate interested in interactive media, mobile, or games. Eager to grow as a developer, help solve problems, and learn. I’m intrigued by software that brings good or joy to people. Currently employed in a software company digitizing aviation maps, to help make flying less stressful.
 
 <br/>
 
 ## Experience
+
+- **C++ Software Engineer**  
+  **Lufthansa Systems; Princeton, NJ**  
+  *July 2018*  
+    - Part of a team digitizing aviation maps for the airline industry
+    - Involved in using modern C++ code to build an aviation map library for multiple platforms   
+    - Involved in using Behavior Driven Development (BDD) to test various map features expressed in business language
 
 - **Part-Time Unity Programmer**  
   **Spherical Cow Games; Online**  
@@ -212,4 +220,4 @@ August 2013
 
 ## Interests
 
-Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Spirituality,  East Asian Cultures
+Art, Design, Games, Photography, Linguistics, Technology, Lyric-free Music, Travel, Spirituality, East Asian Cultures
