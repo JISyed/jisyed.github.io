@@ -144,6 +144,19 @@ svg:not(:root) {
   }
 }
 
+.btn-disabled {
+  background-color: $disabled;
+  color: #fff;
+  border-color: $disabled;
+  &:visited {
+    color: #fff;
+  }
+  &:hover {
+    background-color: #fff;
+    color: $disabled;
+  }
+}
+
 // Well
 // --------------------------------------------------
 .well {

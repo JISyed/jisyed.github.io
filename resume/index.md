@@ -39,13 +39,12 @@ looking_for_opporunities: false
     </div>
 </div>
 <div style="display: flex;">
-<!--
     <div markdown="0">
-        <a href="https://www.dropbox.com/s/jn5ozpopfrmhen7/JibranSyed_Resume.pdf" class="btn">
-            <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> &nbsp;Download Résumé (PDF)
+        <!-- OLD LINK: https://www.dropbox.com/s/jn5ozpopfrmhen7/JibranSyed_Resume.pdf -->
+        <a href="#" class="btn btn-disabled">
+            <i class="fa fa-lg fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF Résumé Unavailable
         </a>
     </div>&nbsp;&nbsp;
--->
     <div markdown="0">
         <a href="https://github.com/{{ site.owner.github.name }}?tab=repositories" class="btn">
             <i class="fa fa-lg fa-github" aria-hidden="true"></i> &nbsp;View Projects on GitHub
