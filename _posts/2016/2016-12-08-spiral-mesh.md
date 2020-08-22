@@ -16,8 +16,8 @@ share: true
 ---
 
 <figure>
-    <a href="https://i.imgbox.com/gq6mQ2ZN.png" target="_blank">
-        <img src="https://i.imgbox.com/gq6mQ2ZN.png" alt="imgbox"/>
+    <a href="https://pixelfed.social/storage/m/_v2/202220949217611776/a2741f614-ed245b/mRla8oG7eofR/cA7Py6wx5FOqYfxzs5D8difRnlBjjZefJUq3NYlm.png" target="_blank">
+        <img src="https://pixelfed.social/storage/m/_v2/202220949217611776/a2741f614-ed245b/mRla8oG7eofR/cA7Py6wx5FOqYfxzs5D8difRnlBjjZefJUq3NYlm.png" alt="imgbox"/>
     </a>
 </figure>
 
