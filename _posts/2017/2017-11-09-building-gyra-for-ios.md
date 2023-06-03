@@ -9,8 +9,6 @@ tags: [Unity3D, Ludum Dare, iOS, Xcode]
 description:
 image:
   feature: /project-images/gyra/gyra_iPad.jpg
-  #credit: Drew Hays
-  #creditlink: https://unsplash.com/drew_hays
 comments: false
 share: true
 ---
@@ -28,6 +26,8 @@ I provided app icons and splash screens for Unity's Player Settings, but long st
 #### Fixing App Icons
 
 For starters, to make a bunch of images that an iOS app icon requires, I made a single 1024x1024px image. Then I uploaded it a nice web app called [MakeAppIcon](https://makeappicon.com/) which helps you generate all of the necessary scaled images needed for an iOS app icon. I downloaded the generated zip of images and put them into the Unity project. In Player Settings, you can override game icon for iOS (and Android if you want), and I placed the different icon sizes into the different image slots.
+
+> **Update 2023:** *If you want an alternative to MakeAppIcon, there is [Website Planet's Favicon Generator](https://www.websiteplanet.com/webtools/favicon-generator/), which can generate icons for iOS and Android (just be sure to select "All sizes, please!" in the settings). Thanks to a fellow reader for the suggestion!* 
 
 But an issue occurs concerning the quality of the icon images. If you build your Unity project to iOS (generating an Xcode project), and you build the exported project to your device, you will find the quality of the app icon to be lacking. I suspect that this is a bug with Unity that needs to be addressed.
 
